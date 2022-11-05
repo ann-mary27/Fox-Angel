@@ -1,5 +1,36 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
-
+*{
+	font-family: "Copperplate Gothic Bold", sans-serif;
+	/*  */
+}
+/* BG IMG */
+.box1{
+  height: 80vh;
+  width: 100%;
+  background-image: url(https://i.ytimg.com/vi/mm_M7TE2qJ0/maxresdefault.jpg);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+.box1>h1{
+	font-family: arial black;
+	color: #fff;
+	font-size: 50px;
+	margin: 0;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+  }
+.navbar{
+	background-color: transparent;
+}
+h1{
+	font-family: arial black, serif;
+	font-style: normal;
+	font-size: 200px;
+	font-weight: 900;
+	margin: auto;
+}
 
 .logo {
 	z-index: 3;
@@ -9,9 +40,9 @@ img.logo{
 		width: 50px;
 
 }
-.profiles>*{
+/* .profiles>*{
 	border :.5px black solid;
-}
+} */
 
 ul>li >a{
       text-transform: uppercase;
@@ -35,38 +66,64 @@ ul>li >a::after {
         transform-origin: left;
       }
 
-  
+  /* Some-text */
+
+  .some-text>div>h1{
+	text-transform: uppercase;
+font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+/* Brand-design */
+.brand-design{
+	height: 80vh;
+	width: 100%;
+	background-image: url(./images/design-brand.jpg);
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+  }
+  .brand-design>.brand-design-text{
+	  font-family: arial black;
+	  text-transform: uppercase;
+	  color: #fff;
+	  font-size: 50px;
+	  margin: 0;
+	  text-align: center;
+	  display: table-cell;
+	  vertical-align: middle;
+	}
+
 /* Profiles */
 
 .profile-image {
 	display: inline-block;
 	position: relative;
 }
-.profile-image>a {
+.profile-image>.profile-info {
 	display: block;
 	position: absolute;
 	margin: auto;
-	width: 95%;
+
+	width: 100%;
 	height: 100%;
 	background: black
 		no-repeat ;
 	opacity: 0;
-	background-size:contain;
+	background-size:cover;
 	overflow: hidden;
-	font: 300 36px helvetica, sans-serif;
+	font: 300 20px helvetica, sans-serif;
 	color: #fff;
 	text-decoration: none;
 	transition: all 0.3s;
 }
-.profile-image>a:hover {
+.profile-image>.profile-info:hover {
 	opacity: .5;
-	background-position: 95% 85%;
-	margin: auto;
+	background-position: 100% 100%;
 }
 
 .profile-text {
 	padding: 30px;
-	line-height: 3;
+	line-height: .5;
 }
 
 
@@ -92,8 +149,8 @@ button.read-more:hover {
 .image-responsive{
     width:100%;
 }
-
-.navbar{
+/* 
+nav,.navbar-expand-lg>div{
     display:flex;
     justify-content:space-around;
     align-items:center;
@@ -104,4 +161,20 @@ button.read-more:hover {
     z-index:1;
     width:100%;
     transition:0.2s;
+} */
+
+
+nav,.navbar-expand-lg,.nav-expand-lg>div{
+	display:flex;
+    justify-content:space-around;
+	background-color:transparent;
+	z-index:1;
+	width: 100%;
+	position:absolute;
+    transition:0.2s;
+	padding:0
 }
+
+* {
+	box-sizing:border-box
+  }

@@ -61,9 +61,9 @@
         </div>
     </nav> -->
 
-        <nav class="pb-3 pb-lg-0 px-0 border-bottom border-dark">
-            <div class="navbar navbar-expand-lg  navbar-light bg-light container-fluid ">
-                <div class="container-fluid ">
+        <nav class="pb-3 pb-lg-0 px-0 bg-transparent ">
+            <div class="navbar navbar-expand-lg bg-transparent navbar-light px-0">
+                <div class="container-fluid bg-transparent ">
                     <a class="navbar-brand logo" href="./index.html">
 
                         <img class="img-fluid d-block" src="./images/fox.png" alt="logo" />
@@ -73,19 +73,19 @@
                         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse bg-light container-fluid" id="navbarText">
-                        <ul class="navbar-nav mx-auto mb-lg-0">
+                    <div class="collapse navbar-collapse bg-transparent " id="navbarText">
+                        <ul class="navbar-nav  mx-auto mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link " aria-current="page" href="./index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./about.html">About Us</a>
+                                <a class="nav-link active" href="#">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Portfolio</a>
+                                <a class="nav-link" href="./portfolio.html">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
+                                <a class="nav-link" href="./Contact.html">Contact Us</a>
                             </li>
                         </ul>
 
@@ -95,65 +95,153 @@
         </nav>
 
 
-        <div class="container-fluid">
-            <h1 class="qodef-m-title entry-title">
-                About Us </h1>
+        <div class="box1">
+            <h1 class="fs-1">ABOUT US</h1>
         </div>
     </header>
 
+    <!-- Presence -->
+    <div class="container-fluid some-text p-5">
+        <div class="col-lg-7">
+            <h1>Here for you</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique consectetur eum, amet harum commodi eaque nemo est perferendis sunt. Nobis dicta perferendis debitis animi hic!</p>   
+        </div>
+    </div>
+
+<!-- Brand Design -->
+<div class="container-fluid ">
+    <div class="col-10 brand-design">
+        <div class="brand-design-text">
+            <h1>DESIGN</h1>
+        <p>Branding Done Right</p>
+        </div>
+        
+    </div>
+</div>
+
+<!-- Quotes -->
+<div class="container-fluid col-lg-10 p-5">
+    <div id="carouselExampleCaptions" class="carousel carousel-dark slide p-5" data-bs-ride="false">
+    
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <div class="col-lg-6 col-10 mx-auto  d-md-block">
+          <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur deserunt dolore eos eveniet iure magnam.</h5>
+          <p>Person</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="col-lg-6 col-10 mx-auto  d-md-block">
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur deserunt dolore eos eveniet iure magnam.</h5>
+          <p>Person</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <div class="col-lg-6 col-10 mx-auto  d-md-block">
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur deserunt dolore eos eveniet iure magnam.</h5>
+          <p>Person</p>
+          </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</div>
+
 
     <!-- Profiles -->
-    <div class="container-fluid profiles">
+    <div class="container-fluid profiles p-5">
         <div class="row">
             <div class="col-12 col-lg-4">
 
             </div>
-            <div class="col-12 col-lg-8 container-fluid">
+            <div class="col-12 col-lg-8 container-fluid ">
                 <div class="row">
-                    <div class="col-12 col-lg-6 profile-image">
-                        <a href="#">
-                            <p class="profile-text">i'm a link.</p>
+                    <h1>OUR TEAM</h1>
+                </div>
+                <div class="row g-sm-1 g-2 m-2">
+                    <div class="col-12 col-lg-6 profile-image ">
+                        <div class="profile-info py-5 px-2 m-0">
+                            <small class="profile-text ">Designation</small>
+                            <p class="profile-text">Member Name</p>
+                            <a href="#">
+                            <p class="profile-text pt-0"><i class="bi bi-linkedin"></i></p>
                         </a>
-                        <img src="./images/img-team.jpg" class="img-thumbnail mx-lg-auto" alt="">
+                        </div>
+                        
+                        <img src="./images/img-team.jpg" class="img-fluid image-responsive mx-lg-auto" alt="">
 
                     </div>
                     <div class="col-12 col-lg-6 profile-image">
-                        <a href="#">
-                            <p class="profile-text">i'm a link.</p>
+                        <div class="profile-info py-5 px-2 my-auto">
+                            <small class="profile-text">Designation</small>
+                            <p class="profile-text">Member Name</p>
+                            <a href="#">
+                            <p class="profile-text pt-0"><i class="bi bi-linkedin"></i></p>
                         </a>
-                        <img src="./images/img-team.jpg" class="img-thumbnail mx-lg-auto " alt="">
+                        </div>
+                        
+                        <img src="./images/img-team.jpg" class="img-fluid image-responsive mx-lg-auto" alt="">
+
                     </div>
                 </div>
-                <div class="row">
+                <div class="row g-sm-1 g-2 m-2">
                     <div class="col-12 col-lg-6 profile-image">
-
-                        <a href="#">
-                            <p class="profile-text">i'm a link.</p>
+                        <div class="profile-info py-5 px-2 my-auto">
+                            <small class="profile-text">Designation</small>
+                            <p class="profile-text">Member Name</p>
+                            <a href="#">
+                            <p class="profile-text pt-0"><i class="bi bi-linkedin"></i></p>
                         </a>
-                        <img src="./images/img-team.jpg" class="img-thumbnail mx-lg-auto" alt="">
+                        </div>
+                        
+                        <img src="./images/img-team.jpg" class="img-fluid image-responsive mx-lg-auto" alt="">
 
                     </div>
                     <div class="col-12 col-lg-6 profile-image">
-                        <a href="#">
-                            <p class="profile-text">i'm a link.</p>
+                        <div class="profile-info py-5 px-2 my-auto">
+                            <small class="profile-text">Designation</small>
+                            <p class="profile-text">Member Name</p>
+                            <a href="#">
+                            <p class="profile-text pt-0"><i class="bi bi-linkedin"></i></p>
                         </a>
-                        <img src="./images/img-team.jpg" class="img-thumbnail mx-lg-auto" alt="">
+                        </div>
+                        
+                        <img src="./images/img-team.jpg" class="img-fluid image-responsive mx-lg-auto" alt="">
+
                     </div>
                 </div>
-                <div class="row">
+                <div class="row g-sm-1 g-2 m-2 ">
                     <div class="col-12 col-lg-6 profile-image">
-
-                        <a href="#">
-                            <p class="profile-text">i'm a link.</p>
+                        <div class="profile-info py-5 px-2 my-auto">
+                            <small class="profile-text">Designation</small>
+                            <p class="profile-text">Member Name</p>
+                            <a href="#">
+                            <p class="profile-text pt-0"><i class="bi bi-linkedin"></i></p>
                         </a>
-                        <img src="./images/img-team.jpg" class="img-thumbnail mx-lg-auto" alt="">
+                        </div>
+                        
+                        <img src="./images/img-team.jpg" class="img-fluid image-responsive mx-lg-auto" alt="">
 
                     </div>
                     <div class="col-12 col-lg-6 profile-image">
-                        <a href="#">
-                            <p class="profile-text">i'm a link.</p>
+                        <div class="profile-info py-5 px-2 my-auto">
+                            <small class="profile-text">Designation</small>
+                            <p class="profile-text">Member Name</p>
+                            <a href="#">
+                            <p class="profile-text pt-0"><i class="bi bi-linkedin"></i></p>
                         </a>
-                        <img src="./images/img-team.jpg" class="img-thumbnail mx-lg-auto" alt="">
+                        </div>
+                        
+                        <img src="./images/img-team.jpg" class="img-fluid image-responsive mx-lg-auto" alt="">
+
                     </div>
                 </div>
 
@@ -164,7 +252,7 @@
     <!-- Footer -->
     <footer class="container-fluid ">
         <div class="row  ">
-            <div class="col-12 col-12 col-lg-3 border border-dark pt-4 px-5">
+            <div class="col-12 col-12 col-lg-3  pt-4 px-5">
 
                 <div class="row py-4 px-0">
                     <div class="col-4">
@@ -185,21 +273,21 @@
                 </div>
 
             </div>
-            <div class="col-12 col-12 col-lg-3 border border-dark p-5">
+            <div class="col-12 col-12 col-lg-3 p-5">
                 <h4>Location</h4>
                 <br>
                 <p>Place</p>
                 <p>City</p>
                 <p>State PIN, Country</p>
             </div>
-            <div class="col-12 col-12 col-lg-3 border border-dark p-5">
+            <div class="col-12 col-12 col-lg-3 p-5">
                 <h4>Contact</h4>
                 <br>
                 <p><a href="#" class="text-decoration-none">Email</a></p>
                 <p>Phone Number</p>
                 <p>Telephone Number</p>
             </div>
-            <div class="col-12 col-12 col-lg-3 border border-dark p-5">
+            <div class="col-12 col-12 col-lg-3 p-5">
                 <h4>Social</h4>
                 <br>
                 <div class="row">

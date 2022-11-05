@@ -3,7 +3,9 @@
     padding:0;
     box-sizing:border-box;
 }
-
+h1{
+    font-family:"MerriweatherUltraBold Regular", "Helvetica Neue",Helvetica,Arial;
+}
 .image-responsive{
     width:100%;
 }
@@ -31,7 +33,6 @@
 
 .menu-list {
     display: flex;
-    
     justify-content: space-around;
 }
 
@@ -66,12 +67,12 @@
     display:none;
     cursor:pointer;
 }
-
+/* 
 .nav-active {
     transform: translateX(0%);
-}
+} */
 
-@keyframes navReveal {
+/* @keyframes navReveal {
     from {
         opacity: 0;
         transform: translateY(-50px);
@@ -81,8 +82,8 @@
         opacity: 1;
         transform: translateY(0px);
     }
-}
-
+} */
+/* 
 .toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
 }
@@ -93,7 +94,7 @@
 
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
-}
+} */
 
 .container {
     width: 80%;
@@ -148,4 +149,54 @@ button.read-more:hover{
     background-color: white;
   color: black;
   transition: 0.5s;
+}
+
+
+/* Quotes */
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 60px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+}
+#quote-carousel .carousel-indicators .active {
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+    transition: all .2s;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
 }
