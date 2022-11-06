@@ -7,19 +7,19 @@
 .mapouter {
     position: relative;
     text-align: right;
-    width: 90%;
+    width: 100%;
     height: 90vh;
 }
 
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
-    width: 90%;
+    width: 100%;
     height: 90vh;
 }
 
 .gmap_iframe {
-    width: 90% !important;
+    width: 100% !important;
     height: 90vh !important;
 }
 
