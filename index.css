@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-    box-sizing:border-box;
+    border:0;
 }
 h1{
     font-family:"MerriweatherUltraBold Regular", "Helvetica Neue",Helvetica,Arial;
@@ -187,3 +187,4 @@ button.read-more:hover{
     float: left;
     margin-right: 10px;
 }
+

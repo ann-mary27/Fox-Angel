@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Poppins:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');*{
-	font-family: 'Poppins', sans-serif;
-	/*  */
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
+
+*{
+font-family: 'Poppins', sans-serif;
 }
+
 small{
     font-family: 'Exo', sans-serif;
-
 }
 
 
@@ -30,6 +32,8 @@ small{
   display: table;
   background-attachment: fixed;
 }
+
+
 .box1>h1{
     font-family: 'Orbitron', sans-serif;
     color: #fff;
@@ -43,7 +47,6 @@ small{
 .cover {
   object-fit: cover;
 }
-
 
 /* MAIN CATEGORY */
 .mem-img>img {
@@ -106,4 +109,25 @@ hr{
 .mem-img>img{
   height: 100%;
   object-fit: cover;
+}
+
+
+@media screen and (max-width: 768px) {
+  .box1>h1{
+    font-size: 20px;
+  }
+
+
+  /* sub-category */
+  *{
+    font-size: 12px;
+  }
+  .subcatergory{
+    display: flex;
+  }
+  .category-outline{
+    align-self: center !important;
+  }
+  
+  
 }
