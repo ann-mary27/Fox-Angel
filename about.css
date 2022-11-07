@@ -114,20 +114,18 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font: 300 20px helvetica, sans-serif;
 	color: #fff;
 	text-decoration: none;
-	transition: all 0.3s;
+	transition: all .5s ease-in-out .1s;
+	/* transition:all 1.5s; */
 }
 .profile-image>.profile-info:hover {
 	opacity: .5;
 	background-position: 100% 100%;
-}
 
+}
 .profile-text {
 	padding: 30px;
 	line-height: .5;
 }
-
-
-
 /* 
  Read More button */
 button.read-more {

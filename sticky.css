@@ -1,0 +1,28 @@
+*{
+    border:0;
+    padding:0;
+    margin:0;
+   
+}
+
+hr{
+    padding:2px;
+    color:rgb(25, 0, 0)
+}
+
+.sticky-scroller,.sticky-carousel>.row{
+    
+    overflow-y:inherit !important;
+}
+
+.sticky-container{
+  height: 100vh !important;
+  position: sticky;
+  top: 0;
+    right: 0;
+
+}
+
+img{
+    object-fit:cover;
+}

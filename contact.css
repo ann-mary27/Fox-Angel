@@ -5,26 +5,28 @@
 
 /* MAP */
 .mapouter {
-    position: relative;
+    /* position: relative; */
     text-align: right;
-    width: 100%;
+    width: 95%;
     height: 90vh;
+    margin:auto;
 }
 
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
-    width: 100%;
+    width: 95%;
     height: 90vh;
+    margin:auto;
 }
 
 .gmap_iframe {
-    width: 100% !important;
+    width: 95% !important;
     height: 90vh !important;
+    margin:auto;
 }
 
-input{ 
-    
+input,input:focus{ 
     border:none !important;
     border-bottom:1px solid black !important;
     border-radius: 0% !important;
