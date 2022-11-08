@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+header>div{
+    height:40vh !important;
+}
+
 .logo img {
     width: 50px;
 }

@@ -1,13 +1,14 @@
 /* @import url(https://fonts.googleapis.com/css?family=Lato);
 *{
 	font-family: "Copperplate Gothic Bold", sans-serif;
-	/*  */
-} */
+	
+} 
+*/
 /* BG IMG */
 .box1{
   height: 80vh;
   width: 100%;
-  background-image: url(https://i.ytimg.com/vi/mm_M7TE2qJ0/maxresdefault.jpg);
+  background-image: url(./images/about-us.jpg);
   background-size: cover;
   display: table;
   background-attachment: fixed;
@@ -44,9 +45,7 @@ img.logo{
 	border :.5px black solid;
 } */
 
-ul>li >a{
-      text-transform: uppercase;
-}
+
 ul>li >a::after {
         position: absolute;
         content: "";
@@ -95,6 +94,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 /* Profiles */
 
+
 .profile-image {
 	display: inline-block;
 	/* display: block; */
@@ -130,6 +130,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 	padding: 25px;
 	line-height: .1;
 }
+
 
 /* 
 		

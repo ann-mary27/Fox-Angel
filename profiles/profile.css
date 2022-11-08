@@ -1,0 +1,57 @@
+
+.profile-main{
+    background: url(../images/member.jpg) no-repeat;
+    min-height: 600px;
+    background-size: cover;
+}
+
+.profile-2{
+    background: url(../images/AdobeStock_399524590.jpeg)  no-repeat;
+    min-height: 600px;
+    background-size: cover;
+}
+
+
+.profile-content h1{
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 20px;
+    color: #fff;
+}
+
+.profile-content p{
+    font-size: 20px;
+    color: #fff;
+}
+
+/* BG IMG */
+/* .box1{
+    height: 80vh;
+    width: 100%;
+    background-image: url(../images/experts.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+  }
+  
+  
+  .box1>h1{
+      font-family: 'Orbitron', sans-serif;
+      color: #fff;
+      font-size: 75px;
+      margin: 0;
+      text-align: center;
+      display: table-cell;
+      vertical-align: middle;
+    }
+   */
+
+   @media(max-width: 800px){
+    .profile-content{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   }
