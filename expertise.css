@@ -60,3 +60,22 @@ button.know-more:hover {
     color: black;
     transition: 0.5s;
 }
+
+@media screen  and (min-height:750px){
+    
+    .row>.col-lg-6 {
+        height: 30vh;
+        display:grid;
+        /* margin-left: */
+    }
+
+    
+.expert-img>img {
+    width: 100%;
+    height: 30vh;
+}
+
+.cover {
+    object-fit: cover;
+}
+}

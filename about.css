@@ -97,15 +97,19 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 .profile-image {
 	display: inline-block;
+	/* display: block; */
 	position: relative;
+	/* position: static; */
+	height:25vh;
+	overflow: hidden;
 }
 .profile-image>.profile-info {
 	display: block;
 	position: absolute;
-	margin: auto;
+	/* margin: auto; */
 
 	width: 100%;
-	height: 100%;
+	height: 25vh;
 	background: black
 		no-repeat ;
 	opacity: 0;
@@ -126,22 +130,13 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 	padding: 30px;
 	line-height: .5;
 }
-/* 
- Read More button */
-button.read-more {
-	padding: 10px 30px;
-	border-radius: 0%;
-}
-button.read-more:hover {
-		color: #333;
-		background-color: #fff;
-		transition: 0.5s;
-	}
 
+/* 
+		
 .profile-image {
 	display: inline-block;
 	position: relative;
-}
+} */
 
 
 .image-responsive{
@@ -176,3 +171,47 @@ nav,.navbar-expand-lg,.nav-expand-lg>div{
 * {
 	box-sizing:border-box
   }
+
+
+ .profile-img,.profile-info {
+	height: 25vh;
+	/* display:grid; */
+	/* margin-left: */
+}
+
+  .profile-img>img {
+    width: 100%;
+    height: 25vh;
+	z-index: -10;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+
+/* 
+ Read More button */
+button.view-more {
+	padding: 10px 30px;
+	border-radius: 0%;
+	width:30%;
+	position: absolute;
+}
+button.view-more:hover {
+		color: #333;
+		background-color: #fff;
+		transition: 0.5s;
+	}
+
+	button.view-less {
+		padding: 10px 30px;
+		width:30%;
+		border-radius: 0%;
+	}
+	button.view-less:hover {
+			color: #333;
+			background-color: #fff;
+			transition: 0.5s;
+
+		}
