@@ -131,6 +131,28 @@ hr{
       /* width: 100%; */
     }
   }
+/* 
+ Read More button */
+ button.view-more {
+	padding: 10px 30px;
+	border-radius: 0%;
+	width:15vw;
+	/* position: absolute; */
+}
+/* button.view-more:hover {
+		color: #333;
+		background-color: #fff;
+		transition: 0.5s;
+	} */
+  .rel-images{
+    height: 100%;
+    width:100%;
+  }
+  .cover{
+      height: 100%;
+      width:100%;
+      object-fit: contain;
+  }
 
 
 @media screen and (max-width: 768px) {
