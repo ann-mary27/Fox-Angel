@@ -195,7 +195,7 @@ nav,.navbar-expand-lg,.nav-expand-lg>div{
 button.view-more {
 	padding: 10px 30px;
 	border-radius: 0%;
-	width:30%;
+	width:15vw;
 	position: absolute;
 }
 button.view-more:hover {
@@ -206,8 +206,9 @@ button.view-more:hover {
 
 	button.view-less {
 		padding: 10px 30px;
-		width:30%;
+		width:15vw;
 		border-radius: 0%;
+		margin-left: 3px;
 	}
 	button.view-less:hover {
 			color: #333;

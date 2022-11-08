@@ -8,7 +8,7 @@ button_more.addEventListener('click',()=>{
     button_more.style.visibility=button_more.style.visibility==="hidden"?"visible":"hidden";
     // button_less.style.visibility=button_less.style.visibility==="hidden"?"visible":"hidden";
     button_more.style.transitionDuration="1500ms";
-    button_less.style.transitionDuration="1000ms";
+    button_less.style.transitionDuration="500ms";
 
 //   else {
 //     dots.style.display = "none";
