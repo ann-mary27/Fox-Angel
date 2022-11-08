@@ -6,24 +6,27 @@
 }
 
 .profile-2{
-    background: url(../images/AdobeStock_399524590.jpeg)  no-repeat;
+    background: url(../images/member.jpg)  no-repeat;
     min-height: 600px;
     background-size: cover;
+}
+
+.profile-content h2{
+    color: rgb(0, 0, 0);
 }
 
 
 .profile-content h1{
     font-weight: bolder;
     font-size: 40px;
-    padding: 20px;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .profile-content p{
     font-size: 20px;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
-
+ 
 /* BG IMG */
 /* .box1{
     height: 80vh;
