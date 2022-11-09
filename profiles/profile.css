@@ -11,6 +11,11 @@
     background-size: cover;
 }
 
+.quote{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
 .profile-content h2{
     color: rgb(0, 0, 0);
 }
@@ -49,12 +54,25 @@
     }
    */
 
-   @media(max-width: 800px){
+   @media(max-width: 768px){
+    .quote{
+        padding-top:5%;
+        padding-left: 5%;
+    }
+    .profile-main,.profile-2{
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0 auto;
+    }
     .profile-content{
         text-align: center;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: end;
+        align-items: flex-end;
+        padding-right: 0;
     }
+
+
    }
