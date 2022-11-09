@@ -188,7 +188,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
       
       
       <div class="row container-fluid  p-5 non-sticky-item">
-        <div class="col-lg-6  ">
+        <div class="col-lg-10 ">
           <div class=" d-block justify-content-center align-items-center p-4">
             <h1 class="py-3"> This is Breton's creative creative team. </h1>
             <p class="fs-5 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, atque?</p>
@@ -197,10 +197,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
           
 
-        </div><div class="col-lg-6  my-auto me-0 p-0" style="height: 50;">
-            <h2 class="ms-auto me-0"> Subscribe Now</h2>
-
+        </div>
+        <!-- <div class="col-lg-6  my-auto me-0 p-0" style="height: 50vh;">
+          <div class="col-6 h-50 mt-auto ">
+            <h2 class="" id="subscribe"> Subscribe Now</h2>
+          <img class="cover" id="rotate-pic" src="./images/subscribe.png" style="height: 50vh;">
           </div>
+          
+                        
+
+          </div> -->
         </div>
       
   </div>
@@ -258,16 +264,55 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <!-- RESPONSIVE UI IMAGES HERE -->
 <div class="container-fluid">
-  <div class="row  align-items-center ">
+  <div class="row  align-items-center">
     <div class="col-lg-6 p-0 border border-dark">
-      <img
-        src="https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1994&q=80"
-         class="img-fluid" />
+
+
+      <div id="light">
+        <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+        <video id="VisaChipCardVideo" width="600" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <!--Browser does not support <video> tag -->
+          </video>
+      </div>
+      
+      <div id="fade" onClick="lightbox_close();"></div>
+      
+      <div>
+        <a href="#" onclick="lightbox_open();"><img
+        src="./images/My project-1.jpg"
+         class="img-fluid cover" /></a>
+      </div>
+
+
+     
+      
     </div>
-    <div class="col-lg-6 p-0 border border-dark">
-      <img
+    <div class="col-lg-6 p-0 gif-effects row container-fluid g-5  p-5 m-0 mx-auto">
+
+      <div class="col-4 mx-auto ">
+        <img id="g1" src="./images/g11.jpg">
+      </div>
+      <div  class="col-4 mx-auto">
+        <img id="g2" src="./images/g21.jpg" >
+      </div>
+      <div class="col-4 mx-auto">
+        <img id="g3" src="./images/g31.jpg" >
+      </div>
+      <div class="col-4 mx-auto">
+        <img id="g4" src="./images/g41.jpg" >
+      </div>
+      <div class="col-4 mx-auto">
+        <img id="g5" src="./images/g51.jpg" >
+      </div>
+      <div class="col-4 mx-auto">
+        <img id="g6" src="./images/g61.jpg" >
+      </div>
+
+
+      <!-- <img
         src="https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1994&q=80"
-         class="img-fluid" />
+         class="img-fluid" /> -->
     </div>
   </div>
 </div>

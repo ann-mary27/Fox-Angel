@@ -42,6 +42,10 @@ h1{
             transition: 0.2s;
         }
 
+
+
+
+
 /* VISUALLY REPLACEMENT */
 .hello-parent {
   display: flex;
@@ -352,7 +356,48 @@ h1{
     cursor:pointer;
 }
 
+/* subscribe */
 
+
+img#rotate-pic {
+  position: relative;
+  top: 50px;
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img#rotate-pic:hover {
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+} 
+
+/* #subscribe{
+  position: absolute;
+  color: turquoise;
+  z-index:1;
+  
+  top:75%;
+  bottom:-5%; */
+  /* z-index:2;
+  left:25vw;
+  bottom:-10px;
+} */
 
 /* sticky-slider */
 /* html, body {
@@ -362,7 +407,10 @@ h1{
     padding: 0;
     width: 100%;
   } */
-  
+  .cover{
+    height: 100%;
+    object-fit: cover;
+  }
   .slider {
     margin:0;
     width:50vw;
@@ -499,8 +547,14 @@ h1{
       height: 100%;
       position: relative;
       width:100%;
+      
     }
-    
+.slide- {
+  background-position: center;
+  background-size: contain;
+  /* background-size:cover; */
+}
+ 
 
   }
 
@@ -639,3 +693,74 @@ button.read-more:hover{
     margin-right: 10px;
 }
 
+#fade {
+  display: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1001;
+  -moz-opacity: 0.8;
+  opacity: .80;
+  filter: alpha(opacity=80);
+}
+
+#light {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 600px;
+  max-height: 360px;
+  margin-left: -300px;
+  margin-top: -180px;
+  border: 2px solid #FFF;
+  background: #FFF;
+  z-index: 1002;
+  overflow: visible;
+}
+
+#boxclose {
+  float: right;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #AEAEAE;
+  border-radius: 3px;
+  background: #222222;
+  font-size: 31px;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 0px;
+  padding: 11px 3px;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  z-index: 1002;
+  opacity: 0.9;
+}
+
+.boxclose:before {
+  content: "×";
+}
+
+#fade:hover ~ #boxclose {
+  display:none;
+}
+
+.test:hover ~ .test2 {
+  display: none;
+}
+
+
+
+.gif-effects>.col-4{
+  height: 100px;
+
+}
+
+.gif-effects>.col-4>img{
+  height: 100px;
+  border: 1px solid #333;
+}
