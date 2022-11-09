@@ -767,26 +767,7 @@ button.read-more:hover{
 
 
 /* TEXT SLIDE ON HOVER*/
-.animated {
-  /* overflow: hidden; */
-  width: 11rem;
-  white-space:nowrap;
-}
 
-
-.animated>*{
-  display: inline-block;
-  position: relative;
-  
-}
-
-.font-flex-container:nth-child(odd){
-  animation: 6s linear 0s infinite alternate move;
-}
-
-.font-flex-container:nth-child(even){
-  animation: 6s linear 0s infinite alternate move-reverse;
-}
 
 
 .animated:hover{
@@ -801,43 +782,15 @@ button.read-more:hover{
   width: 100%;
 }
 
-@keyframes move {
-  0%,
-  25% {
-    transform: translateX(0%);
-    left: 0%;
-  }
-  75%,
-  100% {
-    transform: translateX(-100%);
-    left: 100%;
-  }
-}
-
-
-@keyframes move-reverse {
-  0%,
-  25%  {
-    transform: translateX(-100%);
-    left: 100%;
-  }
-  75%,
-  100%{
-    transform: translateX(0);
-    left: 0%;
-  }
-}
-
 /* Non-solution styles */
 
 .font-flex-container {
-  display: flex;
-  flex-wrap:wrap;
-  /* flex-direction:column; */
-  /* align-items:stretch; */
+
+
   height:270px;
   margin : auto 0;
   width: 100%;
+ 
 }
 
 
@@ -851,7 +804,7 @@ button.read-more:hover{
 }
 
  span>img{
-  max-height: 15rem;
+  max-height: 12rem;
   }
 
 
@@ -861,23 +814,13 @@ button.read-more:hover{
     max-height: 7rem;
     }
 
-    .font-flex-container:nth-child(odd){
-      animation: 6s linear 0s infinite alternate move;
-    }
     
-    .font-flex-container:nth-child(even){
-      animation: 6s linear 0s infinite alternate move-reverse;
-    }
 
 
     .font-flex-container {
-      display: flex;
-      flex-wrap:wrap;
-      /* flex-direction:column; */
-      /* align-items:stretch; */
       height:120px;
-      margin : auto;
       width: 100%;
+      
     }
  
   .animated {
