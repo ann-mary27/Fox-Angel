@@ -1,49 +1,62 @@
-// const navSlide = () => {
-//     const menu = document.querySelector('.menu');
-//     const nav = document.querySelector('.menu-list');
-//     const menuList = document.querySelectorAll('.menu-list li');
-
-//     menu.addEventListener('click', () => {
-//         nav.classList.toggle('nav-active');
-
-//         menuList.forEach((link, index) => {
-//             if (link.style.animation) {
-//                 link.style.animation = '';
-//             }
-//             else {
-//                 link.style.animation = `navReveal 0.5s ease forwards ${index / 7 + 0.5}s`;
-//             }
-//         });
-//         menu.classList.toggle('toggle');
-//     });
-// }
-
-// navSlide();
-
-// $(function () {
-//     var header = $("#mynav");
-//     $(window).scroll(function () {
-//         var scroll = $(window).scrollTop();
-
-//         if (scroll >= 100) {
-//             header.removeClass('nav2');
-// }
-//     else {
-//         header.removeClass('nav').addClass('nav2');
-//     }
-//     });
-// });
+//pic-replace
+const p1=document.querySelector('#pic1');
+const p2=document.querySelector('#pic2');
+const p3=document.querySelector('#pic3');
+const p4=document.querySelector('#pic4');
+const p_url=[p1.getAttribute('src'),p2.getAttribute('src'),p3.getAttribute('src'),p4.getAttribute('src')];
 
 
-// var elementPosition = $('.page-scroll').offset();
+const r_url=['./images/r1.jpg',"./images/r2.jpg","./images/r3.jpg","./images/r4.jpg"]
 
-// $(window).scroll(function(){
-//         if($(window).scrollTop() > elementPosition.top){
-//               $('.fix-scroll').css('position','fixed').css('top','0');
-//         } else {
-//             $('.fix-scroll').css('position','static');
-//         }    
-// });
+p1.addEventListener('mouseover',(e)=>{
+
+  p1.setAttribute('src',r_url[0]);
+
+});
+
+p2.addEventListener('mouseover',(e)=>{
+
+  p2.setAttribute('src',r_url[1]);
+
+});
+
+p3.addEventListener('mouseover',(e)=>{
+ 
+  p3.setAttribute('src',r_url[2]);
+
+});
+
+p4.addEventListener('mouseover',(e)=>{
+
+  p4.setAttribute('src',r_url[3]);
+
+});
+
+
+p1.addEventListener('mouseout',(e)=>{
+
+  p1.setAttribute('src',p_url[0]);
+
+});
+
+p2.addEventListener('mouseout',(e)=>{
+
+  p2.setAttribute('src',p_url[1]);
+
+});
+
+p3.addEventListener('mouseout',(e)=>{
+ 
+  p3.setAttribute('src',p_url[2]);
+
+});
+
+p4.addEventListener('mouseout',(e)=>{
+
+  p4.setAttribute('src',p_url[3]);
+
+});
+
 
 
 // slider 
@@ -136,3 +149,4 @@ $('.slider').each(function() {
     
     advance();
   });
+
