@@ -785,52 +785,45 @@ button.read-more:hover{
 /* Non-solution styles */
 
 .font-flex-container {
-
-
   height:270px;
   margin : auto 0;
   width: 100%;
- 
 }
-
-
-
-
 .animated {
   font-size: 7rem;
   font-family: sans-serif;
-  
   width: 100%;
 }
-
  span>img{
   max-height: 12rem;
   }
 
-
+@media screen and (min-width: 768px){
+  span>img{
+    max-height: 9rem;
+    }
+    .font-flex-container {
+      height:195px;
+      width: 100%; 
+    }
+  .animated {
+    font-size: 4rem;
+    font-family: sans-serif;
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 768px) {
  span>img{
     max-height: 7rem;
     }
-
-    
-
-
     .font-flex-container {
       height:120px;
-      width: 100%;
-      
+      width: 100%; 
     }
- 
   .animated {
     font-size: 2rem;
     font-family: sans-serif;
-    
     width: 100%;
   }
-
-
-
-  
 }
