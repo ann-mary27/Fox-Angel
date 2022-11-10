@@ -97,3 +97,9 @@ a {
 .logo img{
     width:75px;
 }
+
+
+.navbar *{
+    font-family: Roboto,sans-serif;
+    text-transform: uppercase;
+}
