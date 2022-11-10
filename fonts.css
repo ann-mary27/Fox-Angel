@@ -1,7 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
-.homepage{
-    span{ 
-        
+.homepage 
+    *{ 
+        font-family: 'Playfair Display', serif;
     }
+.about-body *{
+    text-transform: uppercase;
+    font-family: 'Syne', sans-serif;
+}
+
+.about-body h1{
+    font-weight:bolder;
+    font-size:30px;
+}
+.about-body>header h1,.about-body .our-team h1,.about-body .brand-design-text h1{
+    font-size:80px;
+}
+.about-body .brand-design-text{
+-webkit-text-stroke: 1px #fff;
+-webkit-text-fill-color:none;
+}
+
+.contact-body *{
+    font-family: Roboto,sans-serif;
+}
+
+.contact-body h1{
+    font-weight: bolder;
 }

@@ -14,7 +14,7 @@
   background-attachment: fixed;
 }
 .box1>h1{
-	font-family: arial black;
+	
 	color: #fff;
 	font-size: 50px;
 	margin: 0;
@@ -26,7 +26,7 @@
 	background-color: transparent;
 }
 h1{
-	font-family: arial black, serif;
+
 	font-style: normal;
 	font-size: 200px;
 	font-weight: 900;
@@ -69,7 +69,6 @@ ul>li >a::after {
 
   .some-text>div>h1{
 	text-transform: uppercase;
-font-family: Verdana, Geneva, Tahoma, sans-serif;  
 }
 
 /* Brand-design */
@@ -82,7 +81,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 	background-attachment: fixed;
   }
   .brand-design>.brand-design-text{
-	  font-family: arial black;
+	
 	  text-transform: uppercase;
 	  color: #fff;
 	  font-size: 50px;
@@ -204,6 +203,7 @@ button.view-more {
 	border-radius: 0%;
 	width:15vw;
 	position: absolute;
+	left: 50%;
 }
 button.view-more:hover {
 		color: #333;
@@ -216,6 +216,9 @@ button.view-more:hover {
 		width:15vw;
 		border-radius: 0%;
 		margin-left: 3px;
+		position: relative;
+		left: 40%;
+		margin-top:auto;
 	}
 	button.view-less:hover {
 			color: #333;
