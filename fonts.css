@@ -12,6 +12,10 @@
     font-family: 'Syne', sans-serif;
 }
 
+.about-body p{
+  text-transform: none !important;
+}
+
 .about-body h1{
     font-weight:bolder;
     font-size:30px;
@@ -24,19 +28,26 @@
 -webkit-text-fill-color:none;
 }
 
-.contact-body *{
+.expertise-body,.contact-body *{
     font-family: Roboto,sans-serif;
 }
 
-.contact-body h1{
+.expertise,.contact-body h1{
     font-weight: bolder;
 }
 
+.portfolio-body *{
+    color: #fff !important;
+}
+.portfolio-body .navbar *{
+    
+    background-color: #000;
+    text-decoration: none;
+}
 
-
-a {
-    text-decoration: none!important;
-    color:#000 ;
+a{
+    /* text-decoration: none; */
+    color:#000 !important;
   }
   
   ul {
@@ -95,11 +106,38 @@ a {
 }
 
 .logo img{
-    width:75px;
+    width:100px;
 }
 
 
 .navbar *{
-    font-family: Roboto,sans-serif;
+    font-family: Roboto,sans-serif !important;
     text-transform: uppercase;
+    text-decoration: none !important;
+}
+footer *{
+  font-family: Roboto,sans-serif !important;
+  text-decoration: none !important;
+}
+
+.expertise-body *{
+  color: #333333;
+  font-family: Roboto,sans-serif;
+    font-weight: 600;
+}
+.expertise-body p{
+  color: #797979;
+}
+
+
+@media screen and (max-width: 768px) {
+  h1{
+    font-size: 20px!important;
+  }
+
+
+  /* sub-category */
+  *{
+    font-size: 12px;
+  }
 }

@@ -21,6 +21,11 @@
 /* .sticky-contact:nth-child(even){
     flex-grow: 1;align-self: stretch;
 } */
+.navbar *{
+    font-family: Roboto,sans-serif !important;
+    text-transform: uppercase;
+    text-decoration: none !important;
+}
 
  
 .sticky{

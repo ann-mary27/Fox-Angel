@@ -156,6 +156,11 @@ hr{
       object-fit: contain;
   }
 
+  .navbar *{
+    font-family: Roboto,sans-serif !important;
+    text-transform: uppercase;
+    text-decoration: none !important;
+}
 
 @media screen and (max-width: 768px) {
   .box1>h1{

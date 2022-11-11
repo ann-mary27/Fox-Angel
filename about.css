@@ -135,7 +135,9 @@ ul>li >a::after {
 	padding: 25px;
 	line-height: .1;
 }
-
+.bi-linkedin{
+	color: #0d6efd!important;
+}
 
 /* 
 		
@@ -205,13 +207,8 @@ button.view-more {
 	position: absolute;
 	left: 50%;
 }
-button.view-more:hover {
-		color: #333;
-		background-color: #fff;
-		transition: 0.5s;
-	}
 
-	button.view-less {
+button.view-less {
 		padding: 10px 30px;
 		width:15vw;
 		border-radius: 0%;
@@ -220,6 +217,13 @@ button.view-more:hover {
 		left: 40%;
 		margin-top:auto;
 	}
+button.view-more:hover {
+		color: #333;
+		background-color: #fff;
+		transition: 0.5s;
+	}
+
+	
 	button.view-less:hover {
 			color: #333;
 			background-color: #fff;
@@ -238,4 +242,19 @@ button.view-more:hover {
 				width:80vw;
 				/* margin:0 auto; */
 			}
+
+			button.view-more {
+				
+				position: absolute;
+				left: 25%;
+			}
+			
+			button.view-less {
+					
+					margin-left: 3px;
+					position: relative;
+					left: 20%;
+					margin-top:auto;
+				}
+
 		}

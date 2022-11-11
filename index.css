@@ -553,8 +553,11 @@ img#rotate-pic:hover {
  
 
   }
+  .two-two ,.two-two img{
+    height:350px; width:350px;
+  }
 
-
+  
 /* 
 .nav-active {
     transform: translateX(0%);
@@ -761,6 +764,15 @@ button.read-more:hover{
   border: 1px solid #333;
 }
 
+.gif-effects:nth-child(3n+1){
+  margin:0 auto;
+}
+.gif-effects:nth-child(4n+1){
+  margin-left: auto;
+}
+.gif-effects:nth-child(3n+0){
+  margin-right: auto;
+}
 
 /* TEXT SLIDE ON HOVER*/
 
@@ -807,7 +819,241 @@ button.read-more:hover{
     font-family: sans-serif;
     width: 100%;
   }
+  
+  /* .two-two:nth-child(odd){
+    margin-left:auto;
+  }
+  .two-two:nth-child(even){
+    margin-right:auto;
+  } */
+  .mic:nth-child(1){
+    margin-top:auto;
+    margin-left: auto;
+  }
+  .mic:nth-child(2){
+    margin-top:auto;
+    margin-right: auto;
+  }
+  .mic:nth-child(3){
+    margin-bottom:auto;
+    margin-left: auto;
+  }
+  .mic:nth-child(4){
+    margin-bottom:auto;
+    margin-right: auto;
+  }
+  
 }
+
+
+/**
+ * Padding is set relative to the width
+ * of the element, so here padding-top:60% is
+ * a percentage of the width. This allows us 
+ * to set the height as a ratio of the width
+ *
+ */
+ .q-carousel{
+	width: 100%;
+	position: relative;
+	padding-top: 40%;
+	overflow: hidden;
+}
+
+.q-inner{
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	top:25%;
+	left: 0;
+}
+
+/**
+ * ==========================
+ * Animation styles
+ * 
+ * Notes:
+ * 1. We use z-index to position active slides in-front 
+ * of non-active slides
+ * 2. We set right:0 and left:0 on .slide to provide us with
+ * a default positioning on both sides of the slide. This allows 
+ * us to trigger JS and CSS3 animations easily
+ *
+ */
+.q-slide{
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	top:0;
+	right:0;
+	left:0;
+	z-index: 1;
+	opacity: 0;
+  padding: 0;
+}
+
+.q-slide.active,
+.q-slide.left,
+.q-slide.right{
+	z-index: 2;
+	opacity: 1;
+}
+
+/**
+ * ==========================
+ * JS animation styles
+ * 
+ * We use jQuery.animate to control the sliding animations
+ * when CSS3 animations are not available. In order for
+ * the next slide to slide in from the right, we need
+ * to change the left:0 property of the slide to left:auto
+ *
+ */
+
+.js-reset-left{left:auto}
+
+/**
+ * ==========================
+ * CSS animation styles
+ * 
+ * .slide.left and .slide.right set-up
+ * the to-be-animated slide so that it can slide
+ * into view. For example, a slide that is about 
+ * to slide in from the right will:
+ * 1. Be positioned to the right of the viewport (right:-100%)
+ * 2. Slide in when the style is superseded with a more specific style (right:0%)
+ *
+ */
+.q-slide.left{
+	left:-100%;
+	right:0;
+}
+
+.q-slide.right{
+	right:-100%;
+	left: auto;
+}
+
+.transition .q-slide.left{left:0%}
+.transition .q-slide.right{right:0%}
+
+/**
+ * The following classes slide the previously active
+ * slide out of view before positioning behind the 
+ * currently active slide
+ *
+ */
+.transition .q-slide.shift-right{right: 100%;left:auto}
+.transition .q-slide.shift-left{left: 100%;right:auto}
+.q-arrow{
+  visibility:hidden;
+}
+/**
+ * This sets the CSS properties that will animate. We set the
+ * transition-duration property dynamically via JS.
+ * We use the browser's default transition-timing-function
+ * for simplicity's sake
+ * 
+ * It is important to note that we are using CodePen's inbuilt
+ * CSS3 property prefixer. For your own projects, you will need
+ * to prefix the transition and transform properties here to ensure
+ * reliable support across browsers
+ *
+ */
+.transition .q-slide{
+	transition-property: right, left, margin;
+}
+
+/**
+ * ==========================
+ * Indicators
+ *
+ */
+.indicators{
+  width:100%;
+  position: absolute;
+  bottom:20%;
+  left:10%;
+  z-index: 4;
+  padding:0;
+  text-align: center;
+}
+
+.indicators li{
+	width: 2px!important;
+	height: 2px !important;
+	display: inline-block;
+	margin: 2px;
+	background: #fff;
+	list-style-type: none;
+  border: 1px solid #000;
+	border-radius: 50%;
+  cursor:pointer;
+  transition:background 0.3s ease-out;
+}
+
+.indicators li.active{background:#000}
+
+.indicators li:hover{background-color:#000}
+
+/**
+ * ==========================
+ * Arrows 
+ *
+ */
+/* .arrow{
+  width: 20px;
+  height: 20px;
+  position:absolute;
+  top:50%;
+  z-index:5;
+  border-top:3px solid #fff;
+  border-right:3px solid #fff;
+  cursor:pointer;
+  transition:border-color 0.3s ease-out;
+}
+
+.arrow:hover{border-color:#93278f}
+
+.arrow-left{
+  left:20px;
+  transform:rotate(225deg);
+}
+
+.arrow-right{
+  right:20px;
+  transform:rotate(45deg);
+} */
+
+/**
+ * ==========================
+ * For demo purposes only
+ * 
+ * Please note that the styles below are used
+ * for the purposes of this demo only. There is no need
+ * to use these in any of your own projects
+ *
+ */
+
+.q-carousel{
+  max-height:12vh !important;
+}
+.q-slide{
+	text-align:center;
+  padding-top:7%;
+  background-size:cover;
+
+}
+
+.q-slide .quote-text{
+	margin:0 auto;
+/*   line-height:100px; */
+	color:#000;
+	font-size:1.2em;
+  border-radius:50%;
+  font-style: italic;
+}
+
 
 @media screen and (max-width: 768px) {
  span>img{
@@ -822,4 +1068,23 @@ button.read-more:hover{
     font-family: sans-serif;
     width: 100%;
   }
+  .q-slide{
+    text-align:center;
+    padding-top:0%;
+  }
+  .q-inner{
+   
+    top:0%;
+  }
+  .indicators{
+    width:100%;
+    position: absolute;
+    bottom:15%;
+    left:37%;
+  }
+  .two-two ,.two-two img{
+    height: 250px !important; width:250px !important;
+    
+  }
+ 
 }
