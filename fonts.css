@@ -39,7 +39,9 @@
 .portfolio-body #qodef-page-outer *{
     color: #fff !important;
 }
-
+nav a{
+  text-decoration-style: ;
+}
 /* 
 .portfolio-body .navbar *{
     
