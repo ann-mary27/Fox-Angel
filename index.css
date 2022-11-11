@@ -9,7 +9,74 @@ h1{
 .image-responsive{
     width:100%;
 }
+/* subscribe */
+#star-five {
+  margin: 50px 0;
+  position: relative;
+  display: block;
+  color: white;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid blue;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg);
+}
+#star-five:before {
+  border-bottom: 80px solid blue;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+}
+#star-five:after {
+  position: absolute;
+  display: block;
+  color:#fff;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid blue;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+}
 
+
+.box {
+  z-index: 10;
+  posItion:absolute;
+  TOP: 50%;
+  background:transparent;
+  color:#fff;
+  line-height: 100px; 
+  text-align: center; 
+  /* centering: true; */
+  color: transparent;
+  font-size: 17px;
+  border-radius: 20px;
+}
+
+.animated {
+  transition-duration: 0.5s; 
+  transition-property: background rotate;
+  color: #fff;
+}
+
+#star-five:hover {
+  /* background:red; */
+  transform-origin: center;
+  transform: rotate(360deg);
+  
+}
 
 
 .menu-list {
@@ -928,6 +995,8 @@ button.read-more:hover{
 	left:-100%;
 	right:0;
 }
+
+
 
 .q-slide.right{
 	right:-100%;
