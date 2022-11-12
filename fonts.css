@@ -59,7 +59,7 @@ a{
   }
   
   ul {
-   
+    min-width: 12rem;
       list-style: none;
       margin: 0;
       padding-left: 0;
@@ -70,7 +70,8 @@ a{
     margin: 0 auto;
       display: block;
       float: left;
-      padding: 1rem;
+      padding: 0.5rem 1rem;
+      min-width: 12rem;
       position: relative;
       text-decoration: none;
     transition-duration: 0.5s;
@@ -82,21 +83,21 @@ a{
       cursor: pointer;
   }
   
-  ul li ul {
+  ul li ul:not(.portfolio-body *) {
     background-color: #fff;
       visibility: hidden;
     opacity: 0;
-    min-width: 10rem;
+    min-width: 12rem;
       position: absolute;
     transition: all 0.5s ease;
-    margin-top:1px;
-      left: 0;
+    margin-top:0px;
+      left: -10px;
     position: absolute;
     display: none;
   }
   
-  ul li:hover > ul,
-  ul li ul:hover {
+  ul li:hover > ul:not(.portfolio-body *),
+  ul li ul:hover:not(.portfolio-body *){
     visibility: visible;
     opacity: 1;
     display: block;
@@ -104,7 +105,7 @@ a{
     z-index: 4;
   }
   
-  ul li ul li {
+  ul li ul li :not(.portfolio-body *){
       clear: both;
     width: 100%;
   }
@@ -138,7 +139,7 @@ footer *{
 }
 
 
-.dropside{
+.dropside:not(.portfolio-body *){
   position: absolute;
   left: 100%;
   TOP: 0;
