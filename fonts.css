@@ -67,7 +67,7 @@ a{
   
   li {
       color: #000;
-
+    margin: 0 auto;
       display: block;
       float: left;
       padding: 1rem;
@@ -137,6 +137,12 @@ footer *{
   color: #797979;
 }
 
+
+.dropside{
+  position: absolute;
+  left: 100%;
+  TOP: 0;
+}
 
 @media screen and (max-width: 768px) {
   h1{
