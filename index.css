@@ -20,8 +20,19 @@ h1{
   border-right: 100px solid transparent;
   border-bottom: 70px solid blue;
   border-left: 100px solid transparent;
-  transform: rotate(35deg);
+  animation-name: spin;
+  animation-duration:3s;
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
 }
+@keyframes spin {
+  from{
+    transform: rotate(0deg);
+  }
+  to{transform:rotate(360deg)}
+}
+
+
 #star-five:before {
   border-bottom: 80px solid blue;
   border-left: 30px solid transparent;
@@ -52,12 +63,12 @@ h1{
 
 
 .box {
-  z-index: 10;
-  posItion:absolute;
-  TOP: 50%;
+  width:250px!important;
+  height: 250px !important;
+  bottom: 50%;
   background:transparent;
-  color:#fff;
-  line-height: 100px; 
+  /* color:#fff;
+  line-height: 100px;  */
   text-align: center; 
   /* centering: true; */
   color: transparent;
@@ -430,14 +441,14 @@ img#rotate-pic {
   -moz-transition: 0.70s;
   -ms-transition: 0.70s;
   -o-transition: 0.70s;
-  width: 250px;
-  height: 250px;
+  width: 250px!important;
+  height: 250px!important;
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
 
-img#rotate-pic:hover {
+img#rotate-pic {
   transition: 0.70s;
   -webkit-transition: 0.70s;
   -moz-transition: 0.70s;
@@ -449,7 +460,15 @@ img#rotate-pic:hover {
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 } 
+#subscribe{
+  /* color: # */
+  position:relative;
+  left:-10%;
+  top:-100px;
+  color: #fff;
+  font-size: 20px;
 
+}
 /* #subscribe{
   position: absolute;
   color: turquoise;

@@ -40,7 +40,11 @@
     color: #fff !important;
 }
 nav a{
-  text-decoration-style: ;
+  text-decoration-style: none;
+}
+
+span{
+  color:#000;
 }
 /* 
 .portfolio-body .navbar *{
