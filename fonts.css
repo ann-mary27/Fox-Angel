@@ -163,11 +163,16 @@ footer *{
     position: inherit!important;
     visibility: hidden;
     left:5% !important;
-    
+    margin-right: auto !important;
+    width: 100%;
+  }
+  li ul li{
+    width: 100%;
+    background-color: rgb(244, 244, 244);
   }
   .dropside:active{
     visibility: visible;
-    position: inherit !important;;
+    position: inherit !important;
     
   }
   li ul:active{
