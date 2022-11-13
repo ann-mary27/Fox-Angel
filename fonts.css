@@ -163,12 +163,16 @@ footer *{
     position: inherit!important;
     visibility: hidden;
     left:5% !important;
+    
   }
-  .dropside{
+  .dropside:active{
+    visibility: visible;
     position: inherit !important;;
-    left: 0 !important;
+    
   }
   li ul:active{
     visibility: visible;
+    display:flex !important;
+    flex-direction: column;
   }
 }
