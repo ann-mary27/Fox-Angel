@@ -74,7 +74,7 @@ small{
   background-image: url(../images/Sub/Go-To-India-Strategy.png);
   background-size: cover;
 }
-.markstrat{
+.mark-strat{
   background-image: url(../images/Sub/Marketing-Strategy.png);
   background-size: cover;
 }
@@ -113,6 +113,10 @@ small{
   background-size: cover;
 }
 .corp-strat{
+  background-image: url(../images/Sub/Corporate-Level-Strategy.png);
+  background-size: cover;
+}
+.f-l-s{
   background-image: url(../images/Sub/Functional-Level-Strategy.png);
   background-size: cover;
 }
@@ -140,6 +144,21 @@ small{
   background-image: url(../images/Sub/sustainability-transformation.png);
   background-size: cover;
 }
+.dig-strat{
+  background-image: url(../images/Sub/Digital-Strategy.png);
+  background-size: cover;
+}
+.dig-trans{
+  background-image: url(../images/Sub/Digital-Transformation.png);
+  background-size: cover;
+}
+
+.dig-manage{
+  background-image: url(../images/Sub/digital-management.png);
+  background-size: cover;
+}
+
+
 
 .box1>h1{
     font-family: 'Orbitron', sans-serif;
