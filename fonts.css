@@ -153,7 +153,10 @@ footer *{
   h1{
     font-size: 20px!important;
   }
-
+  .about-body nav, .about-body .navbar ul {
+    background-attachment: #f3f3f3;
+    position:inherit !important;
+  }
 
   /* sub-category */
   *{
@@ -163,7 +166,7 @@ footer *{
     position: inherit!important;
     visibility: hidden;
     left:5% !important;
-    margin-right: auto !important;
+    /* margin-right: auto !important; */
     width: 100%;
   }
   li ul li{
@@ -179,5 +182,8 @@ footer *{
     visibility: visible;
     display:flex !important;
     flex-direction: column;
+  }
+  .navbar>ul {
+    align-self: flex-start;
   }
 }
