@@ -14,12 +14,12 @@ small{
 
 /* subcat-list */
 .subcatergory-list>.col-12{
-  height:45vh;
+  height:55vh;
 }
 
 .sub-cat-img>img {
   width: 100%;
-  height: 45vh;
+  height: 55vh;
 }
 
 
@@ -27,12 +27,119 @@ small{
 .box1{
   height: 80vh;
   width: 100%;
-  background-image: url(../images/exper/cover.jpg);
-  background-size: cover;
+  
   display: table;
   background-attachment: fixed;
 }
 
+.g-w-i{
+  background-image: url(../images/Category/grow-with-india.png);
+  background-size: cover;
+}
+
+.dig-consult{
+  background-image: url(../images/Category/Digital-Consulting.png);
+  background-size: cover;
+}
+
+.marknadv{
+  background-image: url(../images/Category/Marketing&Advertising.png);
+  background-size: cover;
+}
+
+.proj-serv{
+  background-image: url(../images/Category/project-services.png);
+  background-size: cover;
+}
+
+.strat-consult{
+  background-image: url(../images/Category/Strategy-Consulting.png);
+  background-size: cover;
+}
+
+.sustain{
+  background-image: url(../images/Category/sustainability.png);
+  background-size: cover;
+}
+
+.brand-assess{
+  background-image: url(../images/Sub/Your-Brand-India-Fit-Assessment.png);
+  background-size: cover;
+}
+.indian-partners{
+  background-image: url(../images/Sub/find-indian-partners.png);
+  background-size: cover;
+}
+.gotoindiastrat{
+  background-image: url(../images/Sub/Go-To-India-Strategy.png);
+  background-size: cover;
+}
+.markstrat{
+  background-image: url(../images/Sub/Marketing-Strategy.png);
+  background-size: cover;
+}
+.setupmark{
+  background-image: url(../images/Sub/Set-Up-Marketing-Team.png);
+  background-size: cover;
+}
+.troubleshoot{
+  background-image: url(../images/Sub/Troubleshooting.png);
+  background-size: cover;
+}
+
+.change-manage{
+  background-image: url(../images/Sub/);
+  background-size: cover;
+}
+.corp-ent{
+  background-image: url(../images/Sub/Corporate-Entrepreneurship.png);
+  background-size: cover;
+}
+.family2corporate{
+  background-image: url(../images/Sub/Convert-Family-Run-into-a-Corporate.png);
+  background-size: cover;
+}
+
+.manage-non{
+  background-image: url(../images/Sub/Managing-Non-market-Forces.png);
+  background-size: cover;
+}
+.product-mark{
+  background-image: url(../images/Sub/Product-Marketing.png);
+  background-size: cover;
+}
+.b-l-s{
+  background-image: url(../images/Sub/Business-Level-Strategy.png);
+  background-size: cover;
+}
+.corp-strat{
+  background-image: url(../images/Sub/Functional-Level-Strategy.png);
+  background-size: cover;
+}
+.gtm-strat{
+  background-image: url(../images/Sub/GTM.-Strategy.png);
+  background-size: cover;
+}
+.pricing-strat{
+  background-image: url(../images/Sub/Pricing-Strategy.png);
+  background-size: cover;
+}
+.restruct-brand{
+  background-image: url(../images/Sub/Restructuring-Brands-&-Business.png);
+  background-size: cover;
+}
+.turn-around{
+  background-image: url(../images/Sub/turn);
+  background-size: cover;
+}
+.ehs{
+  background-image: url(../images/Sub/Environment-Health-and-Safety.png);
+  background-size: cover;
+}
+.sus-transform{
+  background-image: url(../images/Sub/sustainability-transformation.png);
+  background-size: cover;
+}
 
 .box1>h1{
     font-family: 'Orbitron', sans-serif;

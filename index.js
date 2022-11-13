@@ -1,4 +1,16 @@
+const myModal = document.getElementById('modal')
+window.addEventListener('beforeunload', function (e) {
+  e.preventDefault();
+  myModal.focus();
+});
+//   body.addEventListener('shown.bs.modal', () => {
+//   myModal.focus()
+// })
+
+
 //pic-replace
+
+
 const p1=document.querySelector('#pic1');
 const p2=document.querySelector('#pic2');
 const p3=document.querySelector('#pic3');
@@ -76,7 +88,7 @@ const g3=document.querySelector('#g3');
 const g4=document.querySelector('#g4');
 const g5=document.querySelector('#g5');
 const g6=document.querySelector('#g6');
-const g_url=["./images/g12.jpg","./images/g22.jpg","./images/g32.jpg","./images/g42.jpg","./images/g52.jpg","./images/g62.jpg"];
+const g_url=["./images/Icon/2.png","./images/Icon/4.png","./images/Icon/6.png","./images/Icon/8.png","./images/Icon/10.png","./images/Icon/12.png"];
 const gr_url=[g1.getAttribute('src'),g2.getAttribute('src'),g3.getAttribute('src'),g4.getAttribute('src'),g5.getAttribute('src'),g6.getAttribute('src')];
 
 g1.addEventListener('mouseover',()=>{
