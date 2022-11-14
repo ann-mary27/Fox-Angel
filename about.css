@@ -207,15 +207,21 @@ button.view-more {
 	position: absolute;
 	left: 50%;
 }
-
+.more-members{
+	position: relative;
+	top:-5.75%;
+}
 button.view-less {
 		padding: 10px 30px;
 		width:15vw;
 		border-radius: 0%;
 		margin-left: 3px;
-		position: relative;
+		position: absolute;
 		left: 40%;
+		top: 87.5%;
 		margin-top:auto;
+		visibility: hidden;
+		z-index: 5;
 	}
 button.view-more:hover {
 		color: #333;

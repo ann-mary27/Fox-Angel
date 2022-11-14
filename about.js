@@ -1,5 +1,6 @@
 const button_more=document.querySelector('.view-more');
 const button_less=document.querySelector('.view-less');
+
 var evt = new MouseEvent('click');
 button_more.addEventListener('click', ()=>{
 //     var dots = document.getElementById("dots");
@@ -8,11 +9,12 @@ button_more.addEventListener('click', ()=>{
 if (button_more.style.visibility==="hidden") {
      button_more.style.visibility="visible";
     button_more.style.transitionDuration="1500ms";
-    button_less.style.transitionDuration="50ms";
+    button_less.style.transitionDuration="25ms";
 } else {
     button_more.style.visibility="hidden";
-    button_more.style.transitionDuration="50ms";
-    button_less.style.transitionDuration="1000ms";
+    button_less.style.visibility="visible";
+    button_more.style.transitionDuration="25ms";
+    button_less.style.transitionDuration="1500ms";
 }
 
     // button_less.style.visibility=button_less.style.visibility==="hidden"?"visible":"hidden";
