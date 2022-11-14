@@ -88,7 +88,7 @@ small{
 }
 
 .change-manage{
-  background-image: url(../images/Sub/);
+  background-image: url(../images/Sub/change-management.png);
   background-size: cover;
 }
 .corp-ent{
@@ -279,7 +279,7 @@ hr{
   .cover{
       height: 100%;
       width:100%;
-      object-fit: contain;
+      object-fit: cover;
   }
 
   .navbar *{
