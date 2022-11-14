@@ -66,6 +66,7 @@ button.know-more {
     padding: 10px 30px;
     border-radius: 0%;
     border:none;
+    color:#fff;
 }
 
 /* button.know-more:hover {
@@ -78,7 +79,7 @@ button.know-more {
 @media screen  and (max-width: 768px) {
     
     .row>.col-lg-6 {
-        height: 30vh;
+        height: 50vh;
         display:grid;
         /* margin-left: */
     }
@@ -86,7 +87,7 @@ button.know-more {
     
 .expert-img>img {
     width: 100%;
-    height: 30vh;
+    height: 50vh;
 }
 
 .cover {

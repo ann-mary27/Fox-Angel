@@ -23,10 +23,10 @@
 .about-body>header h1,.about-body .our-team h1,.about-body .brand-design-text h1{
     font-size:80px;
 }
-.about-body .brand-design-text{
+/* .about-body .brand-design-text{
 -webkit-text-stroke: 1px #fff;
 -webkit-text-fill-color:none;
-}
+} */
 
 .expertise-body,.contact-body *{
     font-family: Roboto,sans-serif;
@@ -120,7 +120,7 @@ a{
     width:100px;
 }
 
-.navbar .active{
+.navbar li.active{
   font-style: bolder;
 }
 .navbar *{
@@ -134,7 +134,7 @@ footer *{
 }
 
 .expertise-body section *{
-  color: #333333;
+ 
   font-family: Roboto,sans-serif;
     font-weight: 600;
 }
