@@ -153,7 +153,7 @@ footer *{
   h1{
     font-size: 20px!important;
   }
-  .about-body nav, .about-body .navbar ul {
+   .about-body .navbar-collapse >ul {
     background-attachment: #f3f3f3;
     position:inherit !important;
   }
@@ -171,7 +171,7 @@ footer *{
   }
   li ul li{
     width: 100%;
-    background-color: rgb(244, 244, 244);
+    background-color: rgb(244, 244, 244) !important;
   }
   .dropside:active{
     visibility: visible;
