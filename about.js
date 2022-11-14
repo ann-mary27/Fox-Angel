@@ -9,7 +9,7 @@ button_more.addEventListener('click', ()=>{
 if (button_more.style.visibility==="hidden") {
      button_more.style.visibility="visible";
     button_more.style.transitionDuration="1500ms";
-    button_less.style.transitionDuration="25ms";
+    button_less.style.transitionDuration="1000ms";
 } else {
     button_more.style.visibility="hidden";
     button_less.style.visibility="visible";

@@ -142,7 +142,9 @@ footer *{
   color: #797979;
 }
 
-
+li ul *{
+  text-transform:capitalize !important;
+}
 .dropside:not(.portfolio-body *){
   position: absolute;
   left: 100%;
