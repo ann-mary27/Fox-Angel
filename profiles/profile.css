@@ -1,13 +1,13 @@
 
 .profile-main{
     background: url(../images/member.jpg) no-repeat;
-    min-height: 700px;
+    min-height: 800px;
     background-size: cover;
 }
 
 .profile-2{
     background: url(../images/member.jpg)  no-repeat;
-    min-height: 700px;
+    min-height: 800px;
     background-size: cover;
 }
 
@@ -17,22 +17,13 @@
     font-size: 20px;
 }
 
-.profile-content h2{
-    color: rgb(0, 0, 0);
-}
-
-
-.profile-content h1{
-    font-weight: bolder;
-    font-size: 40px;
-    color: rgb(0, 0, 0);
-}
-
-.profile-content p{
-    font-size: 20px;
-    color: rgb(0, 0, 0);
+h4{
+    font-weight: 1px !important;
 }
  
+.profile-info{
+    font-size: 20px !important;
+}
 /* BG IMG */
 /* .box1{
     height: 80vh;
@@ -67,14 +58,7 @@
         margin: 0 auto;
     }
 
-    .profile-content{
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        align-items: flex-end;
-        padding-right: 0;
-    }
+    
 
 
    }

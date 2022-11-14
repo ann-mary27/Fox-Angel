@@ -105,6 +105,10 @@ a{
     position: absolute;
     z-index: 4;
   }
+
+  li ul li:hover{
+    background-color:rgb(244, 244, 244);
+  }
   
   ul li ul li :not(.portfolio-body *){
       clear: both;
@@ -150,7 +154,11 @@ li ul *{
   left: 100%;
   TOP: 0;
 }
-
+.portfolio-body .dropside{
+  position: absolute;
+  left: 100%;
+  TOP: 0;
+}
 @media screen and (max-width: 768px) {
   h1{
     font-size: 20px!important;
