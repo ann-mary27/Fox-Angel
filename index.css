@@ -646,7 +646,15 @@ img#rotate-pic {
   background-size: contain;
   /* background-size:cover; */
 }
- 
+.gif-effects>.col-4{
+  height: 100px;
+
+}
+
+.gif-effects>.col-4>img{
+  height: 100px;
+  border: 1px solid #333;
+}
 
   }
   .two-two ,.two-two img{
@@ -837,6 +845,7 @@ button.read-more:hover{
 }
 
 .boxclose:before {
+
   content: "×";
 }
 
@@ -850,15 +859,7 @@ button.read-more:hover{
 
 
 
-.gif-effects>.col-4{
-  height: 150px;
 
-}
-
-.gif-effects>.col-4>img{
-  height: 150px;
-  border: 1px solid #333;
-}
 /* 
 .gif-effects:nth-child(3n+1){
   margin:0 auto;
@@ -1155,6 +1156,7 @@ button.read-more:hover{
 
 
 @media screen and (max-width: 868px) {
+
  span>img{
     max-height: 7rem;
     }
