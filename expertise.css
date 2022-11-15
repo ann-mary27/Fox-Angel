@@ -47,7 +47,9 @@ header>div{
     /* display: block; */
 }
 
-
+/* .expert-content p{
+    font-weight: 5px!important;
+} */
 
 .expert-content-right {
     float: right ;

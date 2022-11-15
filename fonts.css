@@ -54,7 +54,7 @@ span{
     text-decoration: none;
 } */
 
-a{
+a:not(nav.breadcrumbs ol li a){
     /* text-decoration: none; */
     color:#000 !important;
   }

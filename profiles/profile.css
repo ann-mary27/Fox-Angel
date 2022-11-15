@@ -1,20 +1,22 @@
 
 .profile-main{
     background: url(../images/member.jpg) no-repeat;
-    min-height: 800px;
+    min-height: 700px;
     background-size: cover;
 }
 
 .profile-2{
     background: url(../images/member.jpg)  no-repeat;
-    min-height: 800px;
-    background-size: cover;
+    min-height: 700px;
+    background-size:center;
 }
 
 .quote{
     padding-top: 10%;
     padding-left: 5%;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
 }
 
 h4{
