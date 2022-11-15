@@ -165,7 +165,7 @@ nav,.navbar-expand-lg>div{
 } */
 
 
-nav,.navbar-expand-lg,.nav-expand-lg>div{
+nav,.navbar-expand-lg,.nav-expand-lg>div:not(nav.breadcrumbs){
 	display:flex;
     justify-content:space-around;
 	background-color:transparent;
@@ -262,5 +262,11 @@ button.view-more:hover {
 					left: 20%;
 					margin-top:auto;
 				}
+
+		}
+
+		nav.breadcrumbs {
+			position: absolute;
+			top: 10%;
 
 		}
