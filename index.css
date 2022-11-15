@@ -646,15 +646,15 @@ img#rotate-pic {
   background-size: contain;
   /* background-size:cover; */
 }
-.gif-effects>.col-4{
-  height: 100px;
+/* .gif-effects>.col-lg-4{
+  height: 75px;
 
 }
 
-.gif-effects>.col-4>img{
-  height: 100px;
+.gif-effects>.col-lg-4>img{
+  height: 75px;
   border: 1px solid #333;
-}
+} */
 
   }
   .two-two ,.two-two img{
@@ -857,7 +857,26 @@ button.read-more:hover{
   display: none;
 }
 
+/* .gif-effects>.col-lg-4{
+  height: 200px;
+  width: 200px;
 
+} */
+
+.gif-effects>.col-lg-4>img{
+  height: 200px;
+  width: 200px;
+  border: 1px solid #333;
+  margin:0 auto;
+}
+/* video player */
+
+
+
+
+/* .mfp-hide{
+  display: none;
+} */
 
 
 /* 
@@ -1174,14 +1193,24 @@ button.read-more:hover{
     padding-top:0%;
   }
   .q-inner{
-   
     top:0%;
   }
+
+  /* .q-carousal .indicators{
+    width:100%;
+    position: absolute;
+    bottom:10%;
+    left:25%;
+    z-index: 4;
+    padding:0;
+    text-align: center;
+  } */
+
   .indicators{
     width:100%;
     position: absolute;
     bottom:-5%;
-    left:37%;
+    left:0%;
   }
   .two-two ,.two-two img{
     height: 250px !important; width:250px !important;
@@ -1190,5 +1219,20 @@ button.read-more:hover{
   h1.vr{
     font-size: 20px!important; 
   }
+  .quote-img{
+    float: left !important;
+  }
  
+}
+
+
+@media  only screen and (min-width: 990px) and (max-width: 1350px){
+    .gif-effects .col-4{
+      height:150px;
+    }
+
+    .gif-effects .col-lg-4 img{
+      height: 150px;
+  border: 1px solid #333;
+    }
 }

@@ -59,7 +59,7 @@ nav .breadcrumbs ol{
   text-align: center !important;
 }
 
-a:not(nav.breadcrumbs ol li a,.btn *){
+a:not(nav.breadcrumbs ol li a,.btn *, .slide- *){
     /* text-decoration: none; */
     color:#000 !important;
   }
@@ -179,7 +179,7 @@ li ul *{
   }
 
   /* sub-category */
-  *{
+  * :not(.vr, .slide-  *){
     font-size: 12px;
   }
   li ul{
