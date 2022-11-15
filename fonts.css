@@ -70,7 +70,7 @@ a:not(nav.breadcrumbs ol li a){
       padding-left: 0;
   }
   
-  li:not( .q-carousel ul li) {
+  li:not( .q-carousel ul li ) {
       color: #000;
     margin: 0 auto;
       display: block;
@@ -81,7 +81,9 @@ a:not(nav.breadcrumbs ol li a){
       text-decoration: none;
     transition-duration: 0.5s;
   }
-    
+  .breadcrumbs ol li{
+    min-width:unset;
+  }
   
   
   li:hover {
