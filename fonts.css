@@ -59,7 +59,7 @@ nav .breadcrumbs ol{
   text-align: center !important;
 }
 
-a:not(nav.breadcrumbs ol li a){
+a:not(nav.breadcrumbs ol li a,.btn *){
     /* text-decoration: none; */
     color:#000 !important;
   }
