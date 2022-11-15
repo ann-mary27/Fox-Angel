@@ -11,7 +11,7 @@ h1{
 }
 /* subscribe */
 #star-five {
-  margin: 50px 0;
+  margin: 60px 0;
   position: relative;
   display: block;
   color: white;
@@ -464,7 +464,7 @@ img#rotate-pic {
   /* color: # */
   position:relative;
   left:-10%;
-  top:-100px;
+  top:-115px;
   color: #fff;
   font-size: 20px;
 
@@ -903,7 +903,7 @@ button.read-more:hover{
   }
 
 @media screen and (min-width: 768px){
-  
+
   span>img{
     max-height: 9rem;
     }
