@@ -13,6 +13,7 @@
 }
 
 .about-body p{
+  font-size:20px;
   text-transform: none !important;
 }
 
@@ -172,6 +173,9 @@ li ul *{
    .about-body .navbar-collapse >ul {
     background-attachment: #f3f3f3;
     position:inherit !important;
+  }
+  .about-body p{
+    font-size: 15px;
   }
 
   /* sub-category */
