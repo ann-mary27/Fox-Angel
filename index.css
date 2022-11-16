@@ -646,15 +646,17 @@ img#rotate-pic {
   background-size: contain;
   /* background-size:cover; */
 }
-/* .gif-effects>.col-lg-4{
+.gif-effects>.col-4{
   height: 75px;
 
 }
 
-.gif-effects>.col-lg-4>img{
+.gif-effects>.col-4>img{
   height: 75px;
+  width: 75px;
+  margin: auto;
   border: 1px solid #333;
-} */
+}
 
   }
   .two-two ,.two-two img{
@@ -863,7 +865,7 @@ button.read-more:hover{
 
 } */
 
-.gif-effects>.col-lg-4>img{
+.gif-effects>.col-4>img{
   height: 200px;
   width: 200px;
   border: 1px solid #333;
@@ -1222,17 +1224,26 @@ button.read-more:hover{
   .quote-img{
     float: left !important;
   }
- 
+ .gif-effects .col-4 img{
+  height:75px;
+  width: 75px;
+  margin: auto;
+ }
+ .gif-effects .col-4{
+  height:75px;
+ }
 }
 
 
 @media  only screen and (min-width: 990px) and (max-width: 1350px){
     .gif-effects .col-4{
-      height:150px;
+      height:100px;
     }
 
-    .gif-effects .col-lg-4 img{
-      height: 150px;
+    .gif-effects .col-4 img{
+      height: 100px;
+      width:100px;
+      margin: auto;
   border: 1px solid #333;
     }
 }

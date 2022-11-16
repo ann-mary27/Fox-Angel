@@ -545,43 +545,124 @@
         <script
           src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
 
-        <div class="content ">
-          <!-- <h1><span>INTRODUCING</span>
-      WebCorpCo 2 . 0
-   </h1> -->
-          <a href="#videoStory" class="button more" id="videoLink">
-            <!-- Watch Video<i class="fa fa-play-circle" aria-hidden="true">&nbsp;</i> -->
-            <img class="img-fluid" src="./images/My project-1.jpg" alt="" srcset="">
-          </a>
-          <div id="videoStory" class="mfp-hide"
-            style="position: absolute; top: -50vh; left: 15vw;  margin: auto;">
-            <span class="close" style="
-              position: relative;
-              top: 10px;
-              right: 10px;
-              color: white;
-              ">
-              &#10006
-            </span>
-
-            <iframe width="1200px" height="900px" src="./images/video.mp4" frameborder="0" allowfullscreen
-              controls></iframe>
-
-          </div>
-        </div>
-
-        <script>
-          $('#videoLink')
-            .magnificPopup({
-              type: 'inline',
-              midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-            })
-
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+          <img src="./images/My project-1.jpg" class="img-fluid cover popup-btn">
             
-          document.querySelector('.close').addEventListener('click', () => {
-            $(iframe).classList.remove('more');
-          });
-        </script>
+            <div class="video-popup">
+              <div class="popup-bg"></div>
+                <div class="popup-content">
+          <!--         <p class="popup-title">Youtube</p> -->
+          <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/OjuJ-uwNtSM" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
+                  <button class="close-btn">close</button>
+                </div>
+            </div>
+            <style>
+              ::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background: lightgray; 
+  border-radius: 5px;
+}
+p {
+  text-align: center;
+}
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+.video {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  display: block;
+  border: none;
+}
+.close-btn {
+  width: 100px;
+  height: 50px;
+  display: block;
+  margin: 50px auto;
+  cursor: pointer; 
+  border: 2px solid black;
+  background-color: white;
+}
+.popup-btn:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+.video-popup {
+  z-index: 555;
+  display: none;
+  width: 100%;
+  height: 90vh;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  boxshadow: 10px 10px 10px 10px black;
+}
+.popup-bg {
+  background: rgba(0,0,0,0.8);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+.popup-content {
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: auto;
+}
+.popup-title {
+  padding: 30px;
+  margin: 0 auto;
+  color: red;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .video{
+    width: 50%;
+
+  }
+  
+}
+
+            </style>
+
+<script>
+  $(document).ready(function(){
+  
+  $('.popup-btn').on('click', function(){
+    $('.video-popup').fadeIn('slow');
+    return false;
+  });
+  
+  $('.popup-bg').on('click', function(){
+    $('.video-popup').slideUp('slow');
+    return false;
+  });
+  // to stop the video
+  function stop() {
+    var iframe = document.querySelector( 'iframe' );
+var temp = iframe.src; 
+iframe.src = temp; // re-initializing the src attribute value
+      }
+   $('.close-btn').on('click', function(){ 
+    stop();
+     $('.video-popup').fadeOut('slow');
+    
+     
+      return false;
+   });
+  
+});
+</script>
+
+
         <!-- <div class="modal">
 
           <div class="video-container">
@@ -609,22 +690,22 @@
       </div>
       <div class="col-lg-6 p-0 gif-effects row container-fluid g-3  p-5 m-0 m-auto ">
 
-        <div class="col-6 col-lg-4">
+        <div class=" col-4">
           <img id="g1" src="./images/Icon/1.png">
         </div>
-        <div class=" col-6 col-lg-4 ">
+        <div class=" col-4 ">
           <img id="g2" src="./images/Icon/3.png">
         </div>
-        <div class="col-6 col-lg-4 ">
+        <div class=" col-4 ">
           <img id="g3" src="./images/Icon/5.png">
         </div>
-        <div class="col-6 col-lg-4 ">
+        <div class="col-4 ">
           <img id="g4" src="./images/Icon/7.png">
         </div>
-        <div class="col-6 col-lg-4 ">
+        <div class=" col-4 ">
           <img id="g5" src="./images/Icon/9.png">
         </div>
-        <div class="col-6 col-lg-4 mx-auto">
+        <div class=" col-4 mx-auto">
           <img id="g6" src="./images/Icon/11.png">
         </div>
 
@@ -771,22 +852,7 @@
   <!-- <script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
 <script src="../../assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
 
-<!-- JS Implementing Plugins -->
-  <script src="../../assets/js/components/hs.fancybox.js"></script>
-  <script src="../../assets/js/components/hs.svg-injector.js"></script>
 
-  <!-- JS Plugins Init. -->
-  <script>
-    $(window).on('load', function () {
-      // initialization of svg injector module
-      $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
-    });
-
-    $(document).on('ready', function () {
-      // initialization of popups
-      $.HSCore.components.HSFancyBox.init('.js-fancybox');
-    });
-  </script> -->
 
 </body>
 
