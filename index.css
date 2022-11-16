@@ -739,7 +739,7 @@ img#rotate-pic {
 button.read-more{
     padding:10px 30px;
     border-radius: 0%;
-    
+    color:#fff;
 }
 
 button.read-more:hover{
