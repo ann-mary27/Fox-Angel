@@ -523,29 +523,29 @@ img#rotate-pic {
   }
   
   .slide-:nth-of-type(1) {
-    background: url(./images/homepage-slider/1.jpg) no-repeat ;
+    background: url(./images/homepage-slider/1.png) no-repeat ;
     background-size: cover;
   }
   
   .slide-:nth-of-type(2) {
-    background: url(./images/homepage-slider/2.jpg) no-repeat ;
+    background: url(./images/homepage-slider/2.png) no-repeat ;
     background-size: cover;  }
   
   .slide-:nth-of-type(3) {
-    background: url(./images/homepage-slider/3.jpg) no-repeat ;
+    background: url(./images/homepage-slider/3.png) no-repeat ;
     background-size: cover;  }
   
   .slide-:nth-of-type(4) {
-    background: url(./images/homepage-slider/4.jpg) no-repeat ;
+    background: url(./images/homepage-slider/4.png) no-repeat ;
     background-size: cover;  
 }
 
 .slide-:nth-of-type(5) {
-  background: url(./images/homepage-slider/5.jpg) no-repeat ;
+  background: url(./images/homepage-slider/5.png) no-repeat ;
   background-size: cover;  
 }
 .slide-:nth-of-type(6) {
-  background: url(./images/homepage-slider/6.jpg) no-repeat ;
+  background: url(./images/homepage-slider/6.png) no-repeat ;
   background-size: cover;  
 }
 
@@ -615,6 +615,9 @@ img#rotate-pic {
   .previous_btn:hover, .next_btn:hover {
     opacity: 1;
   }
+  button.enquire:hover{
+    color:#333!important;
+  }
   
   @media only screen and (max-width: 767px) {
     .previous_btn {
@@ -633,6 +636,7 @@ img#rotate-pic {
       position: relative;
       width:100%;
     }
+
     
     .slide- {
       display: none;

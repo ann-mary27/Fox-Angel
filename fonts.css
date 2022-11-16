@@ -82,6 +82,9 @@ a:not(nav.breadcrumbs ol li a,.btn *, .slide- *){
       text-decoration: none;
     transition-duration: 0.5s;
   }
+  .navbar-collapse>ul>li{
+    min-width:unset !important;
+  }
   .breadcrumbs ol li{
     min-width:unset;
   }

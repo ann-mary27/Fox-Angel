@@ -10,7 +10,7 @@
 .box1{
   height: 80vh;
   width: 100%;
-  background-image: url(./images/about-us.jpg);
+  background-image: url(./images/about.png);
   background-size: cover;
   display: table;
   background-attachment: fixed;
