@@ -64,7 +64,7 @@ a:not(nav.breadcrumbs ol li a,.btn *, .slide- *){
     color:#000 !important;
   }
   
-  ul:not(.indicators) {
+  ul:not(.indicators, .breadcrumbs ol) {
     min-width: 12rem;
       /* list-style: none; */
       margin: 0;
@@ -84,11 +84,35 @@ a:not(nav.breadcrumbs ol li a,.btn *, .slide- *){
   }
   .navbar-collapse>ul>li{
     min-width:unset !important;
+    width:unset;
   }
   .breadcrumbs ol li{
     min-width:unset;
+    margin: 0;
+    width:unset;
+
   }
-  
+  .breadcrumbs ol{
+    margin:0;
+  }
+  font-scroll *{
+    margin:0;
+    border:0;
+  }
+
+  @media screen and (max-width:900px){
+    .breadcrumbs ol{
+      display: flex !important;
+      flex-direction:row;
+      margin: 0;
+      justify-content: flex-start!important;
+    }
+  }
+  .breadcrumbs ol{
+    display: inline-flex;
+    min-width:unset;
+    margin:0;
+  }
   
   li:hover {
       cursor: pointer;
