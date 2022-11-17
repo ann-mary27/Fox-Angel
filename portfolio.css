@@ -27,13 +27,12 @@ nav
 } */
 
 .logo{
-    z-index:3;
+  z-index:3;
 }
 
 .logo img{
-    width:50px;
+  width:130px;
 }
-
 
 
 ul {

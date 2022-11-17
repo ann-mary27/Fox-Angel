@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
 
-
+@font-face {
+  font-family: 'Heckney' ;
+  src: url(./Heckney-95ExtraBlack.woff2);
+}
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
-.homepage 
-    *{ 
+ *:not(.about-body *){ 
         font-family: 'Playfair Display', serif;
     }
-.about-body *{
+.about-body *:not(footer *){
     text-transform: uppercase;
-    font-family: 'Syne', sans-serif;
+    font-family: 'Heckney', sans-serif;
 }
 
-.about-body p{
+.about-body p:not(footer * p){
   font-size:20px;
   text-transform: none !important;
 }
@@ -24,13 +26,17 @@
 .about-body>header h1,.about-body .our-team h1,.about-body .brand-design-text h1{
     font-size:80px;
 }
+.about-body footer *:not( footer * a ){
+  text-transform: capitalize;
+}
+
 /* .about-body .brand-design-text{
 -webkit-text-stroke: 1px #fff;
 -webkit-text-fill-color:none;
 } */
 
 .expertise-body,.contact-body *{
-    font-family: Roboto,sans-serif;
+    font-family: 'Playfair Display',sans-serif;
 }
 
 .expertise,.contact-body h1{
@@ -155,26 +161,26 @@ a:not(nav.breadcrumbs ol li a,.btn *, .slide- *){
 }
 
 .logo img{
-    width:100px;
+    width:130px;
 }
 
 .navbar li.active{
   font-style: bolder;
 }
 .navbar *{
-    font-family: Roboto,sans-serif !important;
+    font-family:"Playfair Display" ,sans-serif !important;
     text-transform: uppercase;
     text-decoration: none ;
 }
 footer *{
-  font-family: Roboto,sans-serif !important;
+  font-family:'Playfair Display',sans-serif !important;
   text-decoration: none !important;
 }
 
 .expertise-body section *{
  
-  font-family: Roboto,sans-serif;
-    font-weight: 600;
+  font-family: 'Playfair Display',sans-serif;
+    /* font-weight: 600; */
 }
 .expertise-body p{
   color: #797979;
@@ -201,7 +207,7 @@ li ul *{
     background-attachment: #f3f3f3;
     position:inherit !important;
   }
-  .about-body p{
+  .about-body p:not(footer *){
     font-size: 15px;
   }
 
@@ -209,6 +215,7 @@ li ul *{
   * :not(.vr, .slide-  *){
     font-size: 12px;
   }
+  
   li ul{
     position: inherit!important;
     visibility: hidden;
