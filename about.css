@@ -220,7 +220,7 @@ button.view-less {
 		margin-left: 3px;
 		position: absolute;
 		left: 40%;
-		top: 87.5%;
+		top: 93.5%;
 		margin-top:auto;
 		visibility: hidden;
 		z-index: 5;
@@ -250,6 +250,10 @@ button.view-more:hover {
 				width:80vw;
 				/* margin:0 auto; */
 			}
+			.more-members{
+				position: relative;
+				top:-1%;
+			}
 
 			button.view-more {
 				
@@ -261,8 +265,8 @@ button.view-more:hover {
 					
 					margin-left: 3px;
 					position: relative;
-					left: 20%;
-					margin-top:auto;
+					left: 15%;
+					margin-top:1%;
 				}
 
 		}

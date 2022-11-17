@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
-
+/* @font-face {
+  font-family:'Heckney SemiBold'; ;
+  src: url(./Heckney-60SemiBold.woff2);
+} */
 @font-face {
   font-family: 'Heckney' ;
   src: url(./Heckney-95ExtraBlack.woff2);
@@ -9,9 +12,12 @@
  *:not(.about-body *){ 
         font-family: 'Playfair Display', serif;
     }
-.about-body *:not(footer *){
+.about-body *:not(footer *, * p){
     text-transform: uppercase;
     font-family: 'Heckney', sans-serif;
+}
+.about-body p{
+  font-family: 'Playfair Display', serif;
 }
 
 .about-body p:not(footer * p){
