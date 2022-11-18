@@ -17,7 +17,7 @@
  *:not(.about-body *, .float-form *, .form-btns *, .box1 h1){ 
         font-family: 'Playfair Display', serif !important;
     }
-.about-body *:not(footer *, * p, .float-form * , .form-btns *){
+.about-body *,.box1 h1:not(footer *, * p, .float-form * , .form-btns *){
     text-transform: uppercase;
     font-family: 'Heckney', sans-serif;
 }
@@ -35,7 +35,7 @@
     font-size:30px;
 }
 .about-body>header h1,.about-body .our-team h1,.about-body .brand-design-text h1{
-    font-size:80px;
+    font-size:80px !important;
 }
 .about-body footer *:not( footer * a ){
   text-transform: capitalize;
@@ -146,7 +146,7 @@ a:not(nav.breadcrumbs ol li a,.btn *, .slide- *){
       cursor: pointer;
   }
   
-  ul li ul:not(.portfolio-body *) {
+  ul li ul:not(.portfolio-body * ) {
     background-color: #fff;
       visibility: hidden;
     opacity: 0;
@@ -278,6 +278,7 @@ li ul *{
     border-radius: 10px;
     z-index: 99;
     /* height:  */
+    
     
 }
 .homepage .form-btns{

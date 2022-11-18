@@ -11,9 +11,13 @@
   background-size: contain;
 }
 }
+.dropside{
+  left:87% !important;
+}
 
-
-
+button[type="submit"]{
+  background-color:#007aff!important;
+}
 h1{
     font-family:"MerriweatherUltraBold Regular", "Helvetica Neue",Helvetica,Arial;
 }
@@ -1188,6 +1192,10 @@ button.read-more:hover{
 	font-size:1.2em;
   border-radius:50%;
   font-style: italic;
+}
+
+h2{
+  color:#fff!important;
 }
 
 
