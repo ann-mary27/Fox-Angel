@@ -4,14 +4,17 @@
   font-family:'Heckney SemiBold'; ;
   src: url(./Heckney-60SemiBold.woff2);
 } */
+ 
+.float-form button{
 
+}
 
 @font-face {
   font-family: 'Heckney' ;
   src: url(./Heckney-95ExtraBlack.woff2);
 }
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
- *:not(.about-body *, .float-form *, .form-btns *){ 
+ *:not(.about-body *, .float-form *, .form-btns *, .box1 h1){ 
         font-family: 'Playfair Display', serif !important;
     }
 .about-body *:not(footer *, * p, .float-form * , .form-btns *){

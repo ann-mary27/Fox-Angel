@@ -168,9 +168,12 @@ small{
   background-size: cover;
 }
 
-
+@font-face {
+  font-family: 'Heckney' ;
+  src: url(./Heckney-95ExtraBlack.woff2);
+}
 .box1>h1{
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Heckney', sans-serif;
     color: #fff;
 	font-size: 75px;
 	margin: 0;
