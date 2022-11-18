@@ -296,6 +296,7 @@ li ul *{
     border-radius: 10px !important;
     right: 0;
     /* margin: 10px; */
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 nav ul *{
   font-family: 'Heckney', sans-serif!important;
