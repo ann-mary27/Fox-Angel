@@ -361,4 +361,7 @@ li ul *{
         width: 90%;
         bottom: 5vh;
     }
+    .form-btns h1 *{
+      font-size: 40px !important;
+    }
 }
