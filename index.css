@@ -17,10 +17,12 @@
 
 button[type="submit"]{
   background-color:#007aff!important;
+  border-radius: 10px !important;
+  margin:auto !important;
 }
-h1{
+/* h1{
     font-family:"MerriweatherUltraBold Regular", "Helvetica Neue",Helvetica,Arial;
-}
+} */
 .image-responsive{
     width:100%;
 }
@@ -1198,6 +1200,16 @@ h2{
   color:#fff!important;
 }
 
+input[type="email"], input[type="phone"], textarea[type="message"]{
+    
+  border: unset !important;
+  /* border:1px solid rgb(148, 148, 148) !important;
+  border-radius: 10%; */
+}
+button[type="submit"]{
+  
+  margin:0 auto !important;
+}
 
 @media screen and (max-width: 868px) {
 
@@ -1209,7 +1221,7 @@ h2{
       width: 100%; 
     }
   .animated {
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: sans-serif;
     width: 100%;
   }
@@ -1241,6 +1253,7 @@ h2{
     height: 250px !important; width:250px !important;
     
   }
+
   h1.vr{
     font-size: 20px!important; 
   }

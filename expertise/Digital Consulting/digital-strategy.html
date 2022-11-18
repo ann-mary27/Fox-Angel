@@ -28,42 +28,46 @@
 
 <body>
 <!-- FLOATING FORM -->
-<div class="float-form">
-  <div class="blue-form">
-    <h1>Our Advisor is just call away</h1>
-    <div class="blue-form-1">
-      <h2><i class="fa-solid fa-square-phone"></i></i></h2>
-      <div class="blue-form-content px-2">
-        <h3 class="px-2">+91 1112223334</h3>
-        <p class="px-2">Available 24x7 for your queries</p>
-      </div>
+<div class="container float-form bg-light m-0 p-0">
+  <!-- blue form -->
+  <div class="row container-fluid blue-form text-center bg-primary py-3 m-0 g-lg-0">
+    <h4 style="color:#fff;">Our Advisor is just call away</h4>
+    <div class="col-3 m-0">
+      <h3 class="ms-lg-auto mt-1" style="color:#fff;"><i class="fa-solid fa-square-phone"></i></h3>
     </div>
+    <div class="col-9 m-0 mx-auto">
+      <h3  class=" mt-1 text-start"  style="color:#fff;"><a style="color:#fff;" href="tel:+917863011011" class="text-decoration-none text-light">+91 7863011011</a></h3>
+    </div>
+    <h5 style="color:#fff;">Available 24x7 for your queries</h5>
   </div>
-  <div class="form-content">
-    <form action="https://formspree.io/f/mzbwonan" method="POST">
-      <div class="form-text">
-        <h2>Drop us a Query</h2>
-        <p>Fill in the details below and our advisors will get in touch with you in the next 24 hours</p>
-      </div>
-      <div class="form-field">
-        <div class="form-floating mb-3">
-          <input type="phone" class="form-control" id="floatingInput" placeholder="name@example.com">
-          <label for="floatingInput">Mobile Number</label>
+  <!-- white area -->
+  <div class="container-fluid form-field bg-light m-0 p-4 ">
+    <form  action="https://formspree.io/f/mzbwonan" method="POST">
+      <h4 class="text-center">Drop us a Query</h4>
+      <p >Fill in the details below and our advisors will get in touch with you in the next 24 hours</p>
+      <div class="container-fluid mx-auto px-2">
+        <div class="form-floating m-1">
+          <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email</label>
         </div>
-        <div class="form-floating">
-          <input name="email" type="email" class="form-control" id="floatingPassword" placeholder="Password">
-          <label for="floatingPassword">Enter Email</label>
+        <div class="form-floating m-1">
+          <input name="phone" type="phone" class="form-control" id="floatingPassword" placeholder="9999999999">
+          <label for="floatingPassword">Phone Number</label>
         </div>
-        <div class="form-floating">
+        <div class="form-floating m-1">
           <textarea name="message" type="message" class="form-control" placeholder="Leave a comment here"
             id="floatingTextarea2" style="height: 100px"></textarea>
           <label for="floatingTextarea2">Type Your Query Here</label>
         </div>
-        <button name="submit" type="submit" class="btn btn-primary my-3">SUBMIT QUERY</button>
+        <div class="m-0 container-fluid">
+          <button name="submit" type="submit" class="btn btn-primary mx-auto my-3">Submit Query</button>
+
+        </div>
       </div>
     </form>
+
   </div>
-  
+
 </div>
 <div class="form-btns">
     <h1 class="form-btn "><a href="#"><i class="fa-solid fa-square-phone"></i></a></h1>
