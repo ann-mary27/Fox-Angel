@@ -1210,7 +1210,13 @@ button[type="submit"]{
   
   margin:0 auto !important;
 }
-
+.form-btns h1{
+  font-size:50px;
+}
+/* .form-btns{
+  position: fixed;
+  bottom: 15%;
+} */
 @media screen and (max-width: 868px) {
 
  span>img{
