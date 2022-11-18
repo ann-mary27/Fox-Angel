@@ -7,6 +7,9 @@
   .qodef-m-content-table-cell * span{
   font-size:60px !important;
 }
+.slide- *{
+  background-size: contain;
+}
 }
 
 
