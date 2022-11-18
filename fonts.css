@@ -38,6 +38,7 @@
   text-transform: capitalize;
 }
 
+
 /* .about-body .brand-design-text{
 -webkit-text-stroke: 1px #fff;
 -webkit-text-fill-color:none;
@@ -188,7 +189,7 @@ a:not(nav.breadcrumbs ol li a,.btn *, .slide- *, .blue-form *){
 .navbar li.active{
   font-style: bolder;
 }
-.navbar *{
+.navbar>ul>li{
     font-family:"Playfair Display" ,sans-serif !important;
     text-transform: uppercase;
     text-decoration: none ;
@@ -207,7 +208,7 @@ footer *{
   color: #797979;
 }
 
-li ul *{
+nav li>ul,nav li>ul>li{
   text-transform:capitalize !important;
 }
 .dropside:not(.portfolio-body *){
