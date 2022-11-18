@@ -159,6 +159,11 @@ small{
 }
 
 
+.sub-root{
+  background-image: url(../images/Sub/Subsidiary-Root.png);
+  background-size: cover;
+}
+
 
 .box1>h1{
     font-family: 'Orbitron', sans-serif;
