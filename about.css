@@ -240,11 +240,14 @@ button.view-more:hover {
 		}
 
 
-		@media screen and (max-width: 768px) {
+		@media screen and (max-width: 986px) {
 			button.view-less,button.view-more{
 				width:50vw;
 				/* margin: 0 auto; */
 				/* object-fit: cover; */
+			}
+			nav, nav *{
+				background-color: #fff;
 			}
 			.team-members>*{
 				width:80vw;
