@@ -163,6 +163,10 @@ small{
   background-image: url(../images/Sub/Subsidiary-Root.png);
   background-size: cover;
 }
+.launch-india{
+  background-image: url(../images/Sub/launch-in-india.png);
+  background-size: cover;
+}
 
 
 .box1>h1{
