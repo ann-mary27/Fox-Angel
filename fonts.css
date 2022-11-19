@@ -223,7 +223,7 @@ nav li>ul,nav li>ul>li{
 }
 @media screen and (max-width: 768px) {
   h1{
-    font-size: 20px!important;
+    font-size: 25px!important;
   }
    .about-body .navbar-collapse >ul {
     background-attachment: #f3f3f3;
@@ -234,8 +234,11 @@ nav li>ul,nav li>ul>li{
   }
 
   /* sub-category */
-  * :not(.vr, .slide-  *){
-    font-size: 12px;
+  * p:not(.vr, .slide-  *, .float-form *){
+    font-size: 20px;
+  }
+  .float-form h3, .float-form h4,.float-form h5,.float-form p{
+    font-size: 18px;
   }
   
   li ul{

@@ -3,10 +3,17 @@
     padding:0 ;
     border:0;
 }
+
+.responsive-ui .row, .responsive-ui .col-lg-6 ,img.popup-btn{
+  min-height: 530px;
+}
+
 @media screen and (min-width: 768px) {
   .qodef-m-content-table-cell * span{
   font-size:60px !important;
 }
+
+
 .slide- *{
   background-size: contain;
 }
@@ -637,6 +644,9 @@ img#rotate-pic {
   }
   
   @media only screen and (max-width: 767px) {
+    .responsive-ui .row, .responsive-ui .col-lg-6 ,img.popup-btn{
+      min-height:unset !important;
+    }
     .previous_btn {
       left: 50px;
     }
@@ -668,6 +678,9 @@ img#rotate-pic {
   background-position: center;
   background-size: contain;
   /* background-size:cover; */
+}
+.gif-effects{
+  max-height: 450px !important;
 }
 .gif-effects>.col-4{
   height: 75px;
@@ -1225,6 +1238,9 @@ button[type="submit"]{
 @media screen and (max-width: 868px) {
   .quote-carousal{
     padding-bottom: 20px;
+  }
+  .intro h3{
+    font-size: 25px;
   }
  span>img{
     max-height: 7rem;
