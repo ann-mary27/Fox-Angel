@@ -305,7 +305,12 @@ hr{
     font-size: 20px;
   }
 
-
+  .box1{
+    background-size:contain;
+    background-position-y:95px;
+    height:20vh;
+    background-repeat: no-repeat;
+  }
   /* sub-category */
   *{
     font-size: 12px;
