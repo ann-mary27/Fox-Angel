@@ -15,7 +15,7 @@
   display: table;
   background-attachment: fixed;
 }
-.box1>h1{
+.about-body .box1>h1{
 	
 	color: #fff;
 	font-size: 70px !important;
@@ -247,7 +247,7 @@ button.view-more:hover {
 				/* object-fit: cover; */
 			}
 			.box1 h1{
-				font-size: 40px !important;
+				font-size: 40px;
 			}
 			.box1{
 				background-size:contain;

@@ -11,7 +11,7 @@
 }
 
 .navbar ul li *:not(ul li ul *){
-  text-transform: uppercase;
+  text-transform: uppercase ;
 }
 @font-face {
   font-family: 'Heckney' ;
@@ -21,7 +21,7 @@
  *:not(.about-body *, .float-form *, .form-btns *, .box1 h1,.navbar ul li a , footer *){ 
         font-family: 'Playfair Display', serif !important;
     }
-.about-body *,.box1 h1:not(footer *, * p, .float-form * , .form-btns *,.our-team button.view-more,.our-team button.view-less, a){
+.about-body  h1:not(footer *, * p, .float-form * , .form-btns *,.our-team button.view-more,.our-team button.view-less, a){
     text-transform: uppercase;
     font-family: 'Heckney', sans-serif;
 }
@@ -30,7 +30,7 @@
 }
 
 .about-body p:not(footer * p, .float-form *,.form-btns){
-  font-size:18px;
+  font-size:20px;
   text-transform: none !important;
 }
 
@@ -248,12 +248,12 @@ nav li>ul,nav li>ul>li{
     background-attachment: #f3f3f3;
     position:inherit !important;
   }
-  .about-body p:not(footer *){
-    font-size: 15px;
+  .about-body p:not(footer p){
+    font-size: 17px!important;
   }
 
   /* sub-category */
-  * p:not(.vr, .slide-  *, .float-form p, footer p){
+  * p:not(.vr, .slide-  *, .float-form p, footer p, .expertise-body p){
     font-size: 20px;
   }
   /* .float-form h3, .float-form h4,.float-form h5,.float-form p{
