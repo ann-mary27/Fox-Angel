@@ -30,7 +30,7 @@
 }
 
 .about-body p:not(footer * p, .float-form *,.form-btns){
-  font-size:20px;
+  font-size:18px;
   text-transform: none !important;
 }
 
