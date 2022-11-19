@@ -1262,8 +1262,17 @@ button[type="submit"]{
 p:not(footer p, .float-form p) {
   font-size: 25px;
 }
-
+.slide-text{
+  position: relative; bottom:-43vh;
+}
 @media screen and (max-width: 868px) {
+  .directional_nav{
+    position: relative;
+    top:-150%;
+  }
+  .slide-text{
+    position: relative; bottom:-20vh;
+  }
   .quote-carousal{
     padding-bottom: 20px;
   }

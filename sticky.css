@@ -25,7 +25,8 @@ hr{
 
 @media screen and (max-width: 800px){
     .sticky-container{
-        height:fit-content !important;
+        height:45vh !important;
+        overflow-y:hidden !important;
     }
     
 }
