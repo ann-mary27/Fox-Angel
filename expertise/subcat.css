@@ -304,7 +304,9 @@ hr{
   .box1>h1{
     font-size: 20px;
   }
-
+  .subcatergory-list>.col-12{
+    height:unset;
+  }
   .box1{
     background-size:contain;
     background-position-y:95px;
