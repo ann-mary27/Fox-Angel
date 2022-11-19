@@ -646,7 +646,9 @@ img#rotate-pic {
     .slider {
       width:100%;
     }
-    
+    .slide- *{
+      background-size: contain;
+    }
    
     .slide_group {
       height: 100%;
@@ -751,7 +753,9 @@ img#rotate-pic {
       left: 50%;
     background-color:blue;
   } */
-
+p{
+  font-size: 30px;
+}
 
 .quote-img{
     float: right;
@@ -774,6 +778,7 @@ button.read-more:hover{
 #quote-carousel {
     padding: 0 10px 30px 10px;
     margin-top: 60px;
+   
 }
 #quote-carousel .carousel-control {
     background: none;
@@ -1218,7 +1223,9 @@ button[type="submit"]{
   bottom: 15%;
 } */
 @media screen and (max-width: 868px) {
-
+  .quote-carousal{
+    padding-bottom: 20px;
+  }
  span>img{
     max-height: 7rem;
     }
@@ -1265,6 +1272,7 @@ button[type="submit"]{
   }
   .quote-img{
     float: left !important;
+
   }
  .gif-effects .col-4 img{
   height:75px;
