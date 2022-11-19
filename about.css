@@ -246,6 +246,9 @@ button.view-more:hover {
 				/* margin: 0 auto; */
 				/* object-fit: cover; */
 			}
+			.box1 h1{
+				font-size: 40px !important;
+			}
 			.box1{
 				background-size:contain;
 				background-position-y:95px;

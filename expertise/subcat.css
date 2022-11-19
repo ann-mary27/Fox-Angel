@@ -294,9 +294,11 @@ hr{
       object-fit: cover;
   }
 
+  .navbar ul li *:not(ul li ul *){
+    text-transform: uppercase;
+  }
   .navbar *{
     font-family: Roboto,sans-serif !important;
-    text-transform: uppercase;
     text-decoration: none !important;
 }
 
