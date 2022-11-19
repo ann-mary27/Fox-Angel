@@ -642,8 +642,20 @@ img#rotate-pic {
   button.enquire:hover{
     color:#333!important;
   }
-  
+  .font-scroll,.elementor-element,.elementor-widget-container,.qodef-interactive-link-carousel,.qodef-m-inner,.qodef-m-content-holder,.qodef-m-content-table{
+    max-height:75vh;
+  }
+  .qodef-m-content-table-cell{
+    max-height:fit-content;
+     margin-top:-50% !important;
+  }
   @media only screen and (max-width: 767px) {
+    .font-scroll,.elementor-element,.elementor-widget-container,.qodef-interactive-link-carousel,.qodef-m-inner,.qodef-m-content-holder,.qodef-m-content-table{
+      max-height:60vh;
+    }
+  .qodef-m-content-table-cell span{
+    font-size:30px;
+  }
     .responsive-ui .row, .responsive-ui .col-lg-6 ,img.popup-btn{
       min-height:unset !important;
     }
