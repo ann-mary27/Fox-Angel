@@ -18,9 +18,9 @@
   background-size: contain;
 }
 }
-.dropside{
+/* .dropside{
   left:87% !important;
-}
+} */
 
 button[type="submit"]{
   background-color:#007aff!important;
@@ -400,7 +400,6 @@ button[type="submit"]{
   stroke-dashoffset: 302px;
   animation: O-move 20s ease forwards;
 }
-
 @keyframes O-move {
   0% {
     stroke-dashoffset: 302px;
