@@ -132,6 +132,9 @@ a:not(nav.breadcrumbs ol li a,.btn *, .slide- *, .blue-form *){
     margin:0;
     border:0;
   }
+  footer h4{
+    font-size: 20px;
+  }
 
   @media screen and (max-width:900px){
     .float-form h3, .float-form h4, .float-form h5, .float-form p {
