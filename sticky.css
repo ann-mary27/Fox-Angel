@@ -12,7 +12,7 @@ hr{
 
 .sticky-scroller,.sticky-carousel>.row{
     
-    overflow-y:inherit !important;
+    overflow-y:hidden !important;
 }
 
 .sticky-container{
@@ -21,6 +21,13 @@ hr{
   top: 0;
     right: 0;
 
+}
+
+@media screen and (max-width: 800px){
+    .sticky-container{
+        height:fit-content !important;
+    }
+    
 }
 
 img.cover{
