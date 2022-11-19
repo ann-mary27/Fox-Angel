@@ -246,9 +246,18 @@ button.view-more:hover {
 				/* margin: 0 auto; */
 				/* object-fit: cover; */
 			}
+			.box1{
+				background-size:contain;
+				background-position-y:95px;
+				height:40vh;
+				background-repeat: no-repeat;
+			}
 			nav, nav *{
 				background-color: #fff;
 			}
+			/* header{
+				height:100%;
+			} */
 			.team-members>*{
 				width:80vw;
 				/* margin:0 auto; */
