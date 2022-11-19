@@ -523,7 +523,7 @@ img#rotate-pic {
   }
   
   .slide_viewer {
-    height: fit-content;
+    height: 100vh;
     overflow: hidden;
     position: relative;
   }
@@ -791,9 +791,6 @@ img#rotate-pic {
       left: 50%;
     background-color:blue;
   } */
-p:not(footer p, .float-form p) {
-  font-size: 25px;
-}
 
 
 
@@ -1262,6 +1259,10 @@ button[type="submit"]{
   position: fixed;
   bottom: 15%;
 } */
+p:not(footer p, .float-form p) {
+  font-size: 25px;
+}
+
 @media screen and (max-width: 868px) {
   .quote-carousal{
     padding-bottom: 20px;
